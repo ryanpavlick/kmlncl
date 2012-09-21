@@ -10,7 +10,7 @@ layout: default
 <table width="100%" border="1px" bordercolor="#CCC">
 {% for post in site.tags.general %}	 
 <tr>
-<td width="180px"><a href="{{ post.url }}">{{ post.title }}</a></td><td width="440px"> {{ post.short }} </td>
+<td width="180px"><a href="{{site.base_url}}{{ post.url }}">{{ post.title }}</a></td><td width="440px"> {{ post.short }} </td>
 </tr>
 {% endfor %} 
 </table>

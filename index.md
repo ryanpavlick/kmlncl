@@ -13,28 +13,28 @@ layout: default
 </table>
 
 <div id='coin-slider'>
-	<a href="img01_url" target="_blank">
-		<img src='{{site.base_url}}img/slide-1.png' >
+	<a href="{{site.base_url}}examples/#ex_02" target="_blank">
+		<img src='{{site.base_url}}img/slide-1.png'>
 		<span>
-			Example 01: Polygon, PolyStyle
+			Example 02: Polygon, PolyStyle
 		</span>
 	</a>
-	<a href="img02_url">
-		<img src='{{site.base_url}}img/slide-2.png' >
+	<a href="{{site.base_url}}examples/#ex_03">
+		<img src='{{site.base_url}}img/slide-2.png'>
 		<span>
-			Example 02: NetworkLink, BalloonStyle
+			Example 03: NetworkLink, BalloonStyle
 		</span>
 	</a>
-	<a href="img03_url">
-		<img src='{{site.base_url}}img/slide-3.png' >
+	<a href="{{site.base_url}}examples/#ex_04">
+		<img src='{{site.base_url}}img/slide-3.png'>
 		<span>
-			Example 03: 3D COLLADA Models
+			Example 04: 3D COLLADA Models
 		</span>
 	</a>
-	<a href="img04_url">
-		<img src='{{site.base_url}}img/slide-4.png' >
+	<a href="{{site.base_url}}examples/#ex_05">
+		<img src='{{site.base_url}}img/slide-4.png'>
 		<span>
-			Example 04: GroundOverlay
+			Example 05: GroundOverlay, ScreenOverlay
 		</span>
 	</a>
 </div>

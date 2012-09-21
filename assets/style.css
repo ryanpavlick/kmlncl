@@ -28,6 +28,14 @@ position: relative;
   font-weight: 700;
 }
 
+img {
+  vertical-align:text-top;
+}
+img.ex {
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
 table.center {
   margin-left:auto; 
   margin-right:auto;
