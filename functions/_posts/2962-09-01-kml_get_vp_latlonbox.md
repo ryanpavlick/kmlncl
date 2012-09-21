@@ -30,7 +30,7 @@ short description of plot
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}]({{site.url}}/functions/{{seealso}}.html)
+[{{seealso}}]({{baseurl}}/functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples

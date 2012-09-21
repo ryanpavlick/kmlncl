@@ -24,7 +24,7 @@ returnval [*]  :  string
 ### Arguments
 *kml*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.url}}/functions/kml_open_document.html).
+A string array containing a KML document and associated attributes created with the function [kml_open_document]({{baseurl}}/functions/kml_open_document.html).
 
 *name*
 
@@ -40,7 +40,7 @@ short description of plot
 
 *res*
 
-A variable containing an optional list of [KML resources]({{site.url}}/resources), attached as attributes. Set to True if you want the attached attributes to be applied, and False if you either don't have any resources to set, or you don't want the resources applied.
+A variable containing an optional list of [KML resources]({{baseurl}}/resources), attached as attributes. Set to True if you want the attached attributes to be applied, and False if you either don't have any resources to set, or you don't want the resources applied.
 
 ### Return value
 
@@ -52,7 +52,7 @@ For more information about the Camera element, see the [Google KML Reference](ht
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}]({{site.url}}/functions/{{seealso}}.html)
+[{{seealso}}]({{baseurl}}/functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples

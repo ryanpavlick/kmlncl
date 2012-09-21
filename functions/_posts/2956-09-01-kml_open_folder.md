@@ -23,7 +23,7 @@ returnval [*]  :  string
 ### Arguments
 *kml*
 
-A string array containing a KML document created with the function [kml_open_document]({{site.url}}/functions/kml_open_document.html).
+A string array containing a KML document created with the function [kml_open_document]({{baseurl}}/functions/kml_open_document.html).
 
 *name*
 
@@ -31,7 +31,7 @@ Text string displayed in Google Earth (or other geobrowser) as the label for the
 
 *res*
 
-A variable containing an optional list of [KML resources]({{site.url}}/resources), attached as attributes. Set to True if you want the attached attributes to be applied, and False if you either don't have any resources to set, or you don't want the resources applied.
+A variable containing an optional list of [KML resources]({{baseurl}}/resources), attached as attributes. Set to True if you want the attached attributes to be applied, and False if you either don't have any resources to set, or you don't want the resources applied.
 
 ### Return value
 
@@ -39,14 +39,14 @@ A string array containing a KML document with an open Folder element appended to
 
 ### Description
 
-Folder elements are used to arrange other Feature elements hierarchically and may contain Placemarks, NetworkLinks, Overlays, and other Folders. Once all desired Feature elements have been added, the Folder element must be closed with the function [kml_close_folder]({{site.url}}/functions/kml_close_folder.html). 
+Folder elements are used to arrange other Feature elements hierarchically and may contain Placemarks, NetworkLinks, Overlays, and other Folders. Once all desired Feature elements have been added, the Folder element must be closed with the function [kml_close_folder]({{baseurl}}/functions/kml_close_folder.html). 
 
 For more information about the Folder element, see the [Google KML Reference](https://developers.google.com/kml/documentation/kmlreference#folder) page or the [OGC KML specification](http://www.opengeospatial.org/standards/kml/).
 
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}]({{site.url}}/functions/{{seealso}}.html)
+[{{seealso}}]({{baseurl}}/functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples

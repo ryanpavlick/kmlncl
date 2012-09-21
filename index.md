@@ -8,31 +8,31 @@ layout: default
 
 <td width="33%"><a href="https://www.ncl.ucar.edu" id="fat">NCL</a> is an open-source scripting language specifically designed for scientific data processing and visualization.</td>  
 
-<td width="33%">The <a href="{{site.url}}" id="fat">kmlncl</a> library leverages the unique capabilities of NCL making it easy to produce engaging KML visualizations.</td>
+<td width="33%">The <a href="{{baseurl}}/index.html#installing_kml" id="fat">kmlncl</a> library leverages the unique capabilities of NCL making it easy to produce engaging KML visualizations.</td>
 </tr>
 </table>
 
 <div id='coin-slider'>
 	<a href="img01_url" target="_blank">
-		<img src='{{site.url}}/img/slide-1.png' >
+		<img src='{{baseurl}}/img/slide-1.png' >
 		<span>
 			Example 01: Polygon, PolyStyle
 		</span>
 	</a>
-	<a href="imgN_url">
-		<img src='{{site.url}}/img/slide-2.png' >
+	<a href="img02_url">
+		<img src='{{baseurl}}/img/slide-2.png' >
 		<span>
 			Example 02: NetworkLink, BalloonStyle
 		</span>
 	</a>
-	<a href="img3_url">
-		<img src='{{site.url}}/img/slide-3.png' >
+	<a href="img03_url">
+		<img src='{{baseurl}}/img/slide-3.png' >
 		<span>
 			Example 03: 3D COLLADA Models
 		</span>
 	</a>
-	<a href="img3_url">
-		<img src='{{site.url}}/img/slide-4.png' >
+	<a href="img04_url">
+		<img src='{{baseurl}}/img/slide-4.png' >
 		<span>
 			Example 04: GroundOverlay
 		</span>
@@ -61,7 +61,7 @@ For general questions about KML, please refer to the [Google KML documention](ht
 
 ### License
 
-Copyright &copy; 2010-2012, [Ryan Pavlick](http://ourpaleblue.com/) and contributors. See the [`CONTRIBUTORS`](https://github.com/rpavlick/kmlncl/blob/master/CONTRIBUTORS) file for a full list of copyright holders.
+Copyright &copy; 2010-2012, [Ryan Pavlick](http://github.com/rpavlick) and contributors. See the [`CONTRIBUTORS`](https://github.com/rpavlick/kmlncl/blob/master/CONTRIBUTORS) file for a full list of copyright holders.
 
 kmlncl is free software licensed under the BSD 2-clause license. See the [`LICENSE`](https://github.com/rpavlick/kmlncl/blob/master/LICENSE) file for the full terms of this license. Unless otherwise specified, any contributions will be assumed to be licensed under the same terms.
 

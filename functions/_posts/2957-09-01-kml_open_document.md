@@ -31,7 +31,7 @@ Text string displayed in Google Earth (or other geobrowser) as the label for the
 
 *res*
 
-A variable containing an optional list of [KML resources]({{site.url}}/resources), attached as attributes. Set to True if you want the attached attributes to be applied, and False if you either don't have any resources to set, or you don't want the resources applied.
+A variable containing an optional list of [KML resources]({{baseurl}}/resources), attached as attributes. Set to True if you want the attached attributes to be applied, and False if you either don't have any resources to set, or you don't want the resources applied.
 
 ### Return value
 
@@ -44,7 +44,7 @@ For more information about the Document element, see the [Google KML Reference](
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}]({{site.url}}/functions/{{seealso}}.html)
+[{{seealso}}]({{baseurl}}/functions/{{seealso}}.html)
 {% endfor %} 
 
 ### Examples
