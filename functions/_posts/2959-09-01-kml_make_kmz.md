@@ -21,7 +21,7 @@ returnval
 ### Arguments
 *kml*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document]({{baseurl}}/functions/kml_open_document.html).
+A string array containing a KML document and associated attributes created with the function [kml_open_document](functions/kml_open_document.html).
 
 ### Description
 
@@ -32,7 +32,7 @@ More information about [KMZ archives](https://developers.google.com/kml/document
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}]({{baseurl}}/functions/{{seealso}}.html)
+[{{seealso}}](functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples

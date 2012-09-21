@@ -23,7 +23,7 @@ returnval [*]  :  string
 ### Arguments
 *kml*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document]({{baseurl}}/functions/kml_open_document.html).
+A string array containing a KML document and associated attributes created with the function [kml_open_document](functions/kml_open_document.html).
 
 *icon*
 
@@ -42,7 +42,7 @@ For more information about the Icon element, see the [Google KML Reference](http
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}]({{baseurl}}/functions/{{seealso}}.html)
+[{{seealso}}](functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples

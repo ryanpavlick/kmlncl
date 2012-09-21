@@ -35,7 +35,7 @@ One-dimensional arrays containing the longitude, latitude, and altitude coordina
 
 *res*
 
-A variable containing an optional list of [KML resources]({{baseurl}}/resources), attached as attributes. Set to True if you want the attached attributes to be applied, and False if you either don't have any resources to set, or you don't want the resources applied.
+A variable containing an optional list of [KML resources](resources), attached as attributes. Set to True if you want the attached attributes to be applied, and False if you either don't have any resources to set, or you don't want the resources applied.
 
 ### Return value
 
@@ -46,7 +46,7 @@ A string array containing a KML document with a LinearRing element appended to t
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}]({{baseurl}}/functions/{{seealso}}.html)
+[{{seealso}}](functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples
