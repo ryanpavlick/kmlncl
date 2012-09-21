@@ -1,0 +1,7 @@
+.DS_Store
+._*
+examples/*.kml
+examples/*.kmz
+examples/*.png
+examples/*.ps
+test/
