@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+<h1>kmlncl Library</h1>
+
+<a href="{{site.url}}/functions/alpha.html">alphabetical</a> | <a href="{{site.url}}/functions/index.html"><strong>categorical</strong></a> 
+
+<h3>General functions</h3>
+<table width="100%" border="1px" bordercolor="#CCC">
+{% for post in site.tags.general %}	 
+<tr>
+<td width="180px"><a href="{{ post.url }}">{{ post.title }}</a></td><td width="440px"> {{ post.short }} </td>
+</tr>
+{% endfor %} 
+</table>
+
+<h3>Feature functions</h3>
+<table width="100%" border="1px" bordercolor="#CCC">
+{% for post in site.tags.feature %}	 
+<tr>
+<td width="180px"><a href="{{ post.url }}">{{ post.title }}</a></td><td width="440px"> {{ post.short }} </td>
+</tr>
+{% endfor %} 
+</table>
+
+<h3>Geometry functions</h3>
+<table width="100%" border="1px" bordercolor="#CCC">
+{% for post in site.tags.geometry %}	 
+<tr>
+<td width="180px"><a href="{{ post.url }}">{{ post.title }}</a></td><td width="440px"> {{ post.short }} </td>
+</tr>
+{% endfor %} 
+</table>
+
+<h3>Overlay functions</h3>
+<table width="100%" border="1px" bordercolor="#CCC">
+{% for post in site.tags.overlay %}	 
+<tr>
+<td width="180px"><a href="{{ post.url }}">{{ post.title }}</a></td><td width="440px"> {{ post.short }} </td>
+</tr>
+{% endfor %} 
+</table>
+
+<h3>Style functions</h3>
+<table width="100%" border="1px" bordercolor="#CCC">
+{% for post in site.tags.style %}	 
+<tr>
+<td width="180px"><a href="{{ post.url }}">{{ post.title }}</a></td><td width="440px"> {{ post.short }} </td>
+</tr>
+{% endfor %} 
+</table>
+
+<h3>Region functions</h3>
+<table width="100%" border="1px" bordercolor="#CCC">
+{% for post in site.tags.region %}	 
+<tr>
+<td width="180px"><a href="{{ post.url }}">{{ post.title }}</a></td><td width="440px"> {{ post.short }} </td>
+</tr>
+{% endfor %} 
+</table>
+
+<h3>Abstract View functions</h3>
+<table width="100%" border="1px" bordercolor="#CCC">
+{% for post in site.tags.abstract %}	 
+<tr>
+<td width="180px"><a href="{{ post.url }}">{{ post.title }}</a></td><td width="440px"> {{ post.short }} </td>
+</tr>
+{% endfor %} 
+</table>
