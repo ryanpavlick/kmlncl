@@ -9,7 +9,8 @@
 
 ### Prototype
 
-<pre><code>load "/usr/local/lib/ncarg/nclscripts/kml/kml.ncl"
+<pre><code>load "/usr/local/lib/ncarg/nclscripts/csm/gsn_code.ncl"
+load "/usr/local/lib/ncarg/nclscripts/kml/kml.ncl"
 
 function kml_open_document (
   filename:string,
@@ -44,7 +45,7 @@ For more information about the Document element, see the [Google KML Reference](
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}]({{site.base_url}}functions/{{seealso}}.html)
+[{{seealso}}](functions/{{seealso}}.html)
 {% endfor %} 
 
 ### Examples

@@ -8,7 +8,8 @@
 
 ### Prototype
 
-<pre><code>load "/usr/local/lib/ncarg/nclscripts/kml/kml.ncl"
+<pre><code>load "/usr/local/lib/ncarg/nclscripts/csm/gsn_code.ncl"
+load "/usr/local/lib/ncarg/nclscripts/kml/kml.ncl"
 
 procedure kml_map_defaults (
   res:logical

@@ -9,14 +9,15 @@
 
 ### Prototype
 
-<pre><code>load "/usr/local/lib/ncarg/nclscripts/kml/kml.ncl"
+<pre><code>load "/usr/local/lib/ncarg/nclscripts/csm/gsn_code.ncl"
+load "/usr/local/lib/ncarg/nclscripts/kml/kml.ncl"
 
 function kml_crop_plot ( 
   cropbox:string,
   res:logical
 )
 
-returnval [6]  :  string
+returnval  :  string
 </code></pre>
 
 ### Arguments
