@@ -27,7 +27,7 @@ A variable containing an optional list of plot resources, attached as attributes
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}](functions/{{seealso}}.html)
+[{{seealso}}]({{site.base_url}}functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples

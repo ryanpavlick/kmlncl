@@ -22,7 +22,7 @@ returnval [6]  :  string
 ### Arguments
 *cropbox*
 
-A string array containing the top, bottom, left, and right page coordinates of the map portion of a plot, the file name of the postscript file to be cropped, and the file name of the intended cropped png file. The *cropbox* variable can be generated automatically with the function [kml_get_vp_cropbox](functions/kml_get_vp_cropbox).
+A string array containing the top, bottom, left, and right page coordinates of the map portion of a plot, the file name of the postscript file to be cropped, and the file name of the intended cropped png file. The *cropbox* variable can be generated automatically with the function [kml_get_vp_cropbox]({{site.base_url}}functions/kml_get_vp_cropbox).
 
 *res*
 
@@ -34,12 +34,12 @@ Returns a string containing the file name of the cropped png.
 
 ### Description
 
-The function [kml_crop_plot](functions/kml_crop_plot) uses the built-in NCL function **system** to call the Imagemagick function **convert**. 
+The function [kml_crop_plot]({{site.base_url}}functions/kml_crop_plot) uses the built-in NCL function **system** to call the Imagemagick function **convert**. 
 
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}](functions/{{seealso}}.html)
+[{{seealso}}]({{site.base_url}}functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples

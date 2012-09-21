@@ -37,7 +37,7 @@ Returns a string array of length 6 containing the top, bottom, left, and right p
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}](functions/{{seealso}}.html)
+[{{seealso}}]({{site.base_url}}functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples

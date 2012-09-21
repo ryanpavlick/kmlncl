@@ -21,7 +21,7 @@ returnval [*]  :  string
 ### Arguments
 *kml*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.baseurl}}/functions/kml_open_document).
+A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.base_url}}functions/kml_open_document).
 
 ### Return value
 
@@ -34,7 +34,7 @@ For more information about the Document element, see the [Google KML Reference](
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}](functions/{{seealso}}.html)
+[{{seealso}}]({{site.base_url}}functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples

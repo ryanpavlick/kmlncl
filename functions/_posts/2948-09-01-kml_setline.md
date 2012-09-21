@@ -20,19 +20,19 @@ procedure kml_setline  (
 ### Arguments
 *kml*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document](functions/kml_open_document.html).
+A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.base_url}}functions/kml_open_document.html).
 
 *kml_entry*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document](functions/kml_open_document.html)._entry
+A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.base_url}}functions/kml_open_document.html)._entry
 
 *kml*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document](functions/kml_open_document.html).
+A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.base_url}}functions/kml_open_document.html).
 
 *kml_tags*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document](functions/kml_open_document.html)._tags
+A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.base_url}}functions/kml_open_document.html)._tags
 
 *res*
 
@@ -40,11 +40,11 @@ A variable containing an optional list of [KML resources](resources), attached a
 
 *kml*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document](functions/kml_open_document.html).
+A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.base_url}}functions/kml_open_document.html).
 
 *kml_tags*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document](functions/kml_open_document.html)._tags
+A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.base_url}}functions/kml_open_document.html)._tags
 
 *res*
 
@@ -52,11 +52,11 @@ A variable containing an optional list of [KML resources](resources), attached a
 
 *kml*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document](functions/kml_open_document.html).
+A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.base_url}}functions/kml_open_document.html).
 
 *kml_tags*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document](functions/kml_open_document.html)._tags
+A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.base_url}}functions/kml_open_document.html)._tags
 
 *res*
 
@@ -69,7 +69,7 @@ A variable containing an optional list of [KML resources](resources), attached a
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}](functions/{{seealso}}.html)
+[{{seealso}}]({{site.base_url}}functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples

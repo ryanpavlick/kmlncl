@@ -23,7 +23,7 @@ returnval [*] : string
 ### Arguments
 *kml*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document](functions/kml_open_document.html).
+A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.base_url}}functions/kml_open_document.html).
 
 *name*
 
@@ -39,14 +39,14 @@ A string array containing a KML document with an open Folder element appended to
 
 ### Description
 
-A Placemark is a Feature element which can be added to a KML document with the function [kml_open_placemark](functions/kml_open_placemark.html). Zero or more Geometry elements may be placed inside a Placemark element (e.g. by adding Point elements with the function [kml_add_point](functions/kml_add_point.html)). Once all desired Geometry elements have been added, the Placemark element must be closed with the function [kml_close_placemark](functions/kml_close_placemark.html).
+A Placemark is a Feature element which can be added to a KML document with the function [kml_open_placemark]({{site.base_url}}functions/kml_open_placemark.html). Zero or more Geometry elements may be placed inside a Placemark element (e.g. by adding Point elements with the function [kml_add_point]({{site.base_url}}functions/kml_add_point.html)). Once all desired Geometry elements have been added, the Placemark element must be closed with the function [kml_close_placemark]({{site.base_url}}functions/kml_close_placemark.html).
 
 For more information about the Placemark element, see the [Google KML Reference](https://developers.google.com/kml/documentation/kmlreference#placemark) page or the [OGC KML specification](http://www.opengeospatial.org/standards/kml/).
 
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}](functions/{{seealso}}.html)
+[{{seealso}}]({{site.base_url}}functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples

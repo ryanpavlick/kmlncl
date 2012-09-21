@@ -44,7 +44,7 @@ For more information about the Document element, see the [Google KML Reference](
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}](functions/{{seealso}}.html)
+[{{seealso}}]({{site.base_url}}functions/{{seealso}}.html)
 {% endfor %} 
 
 ### Examples
