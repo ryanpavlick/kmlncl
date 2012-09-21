@@ -1,5 +1,5 @@
 safe: true
 pygments: true
 lsi: false
-permalink: /:categories/:title
+permalink: /:categories/:title.html
 base_url: http://rpavlick.github.com/kmlncl/
