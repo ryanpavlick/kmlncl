@@ -1,5 +1,4 @@
 safe: true
 pygments: true
 lsi: false
-permalink: /:categories/:title.html
-url: kmlncl
+permalink: :categories/:title.html
