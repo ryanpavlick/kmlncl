@@ -4,7 +4,7 @@
     short: Adds a LineString element to a KML document.
     category: functions
     tags: geometry
-    seealso: [kml_add_linestyle, kml_add_placemark, kml_add_linearring ]
+    seealso: [ kml_add_linestyle, kml_open_placemark, kml_add_linearring ]
 ---
 
 ### Prototype

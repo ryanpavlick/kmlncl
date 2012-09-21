@@ -4,7 +4,7 @@
     short: Adds a Point element to a KML document
     category: functions  
     tags: geometry
-    seealso: kml_open_placemark, kml_add_linestring
+    seealso: [ kml_open_placemark, kml_add_linestring ]
 ---
 
 {{ page.element}}
