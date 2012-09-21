@@ -2,4 +2,4 @@ safe: true
 pygments: true
 lsi: false
 permalink: /:categories/:title
-baseurl: 
+base_url: http://rpavlick.github.com/kmlncl/
