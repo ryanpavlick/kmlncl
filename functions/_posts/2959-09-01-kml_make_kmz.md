@@ -1,7 +1,7 @@
 ---
     layout: function
     title: kml_make_kmz
-    short: Generates a KMZ archive from a KML document and any associated overlays, images, icons, or COLLADA 3D models
+    short: Generates a KMZ archive from a KML document and any associated images or COLLADA 3D models.
     category: functions  
     tags: general
     seealso: [kml_write, kml_open_document]
