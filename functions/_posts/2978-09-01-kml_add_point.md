@@ -36,7 +36,7 @@ One-dimensional arrays containing the longitude, latitude, and altitude coordina
 
 *res*
 
-A variable containing an optional list of [KML resources](resources), attached as attributes. Set to True if you want the attached attributes to be applied, and False if you either don't have any resources to set, or you don't want the resources applied.
+A variable containing an optional list of [KML resources]({{site.base_url}}/resources), attached as attributes. Set to True if you want the attached attributes to be applied, and False if you either don't have any resources to set, or you don't want the resources applied.
 
 ### Return value
 
