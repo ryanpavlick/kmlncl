@@ -34,7 +34,7 @@ img {
 img.ex {
   margin-left: 5px;
   margin-right: 5px;
-  
+  float: left;   
 }
 table.center {
   margin-left:auto; 
@@ -48,7 +48,6 @@ table.center td {
 
 div.ex
 {
-/*        font-size: 10pt;*/
 	      line-height: 12pt;
         width:700px;
         padding:5px;
