@@ -47,7 +47,7 @@ A string array containing a KML document with a LinearRing element appended to t
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}]({{site.base_url}}functions/{{seealso}}.html)
+[{{seealso}}]({{site.base_url}}/functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples

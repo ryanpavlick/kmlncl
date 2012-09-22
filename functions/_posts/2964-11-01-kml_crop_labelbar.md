@@ -1,10 +1,10 @@
 ---
     layout: function
-    title: kml_get_vp_cropbox
-    short: Gets the page coordinates for cropping a plot.
+    title: kml_crop_labelbar
+    short: Crops the label bar from a plot using Imagemagick.
     category: functions  
     tags: overlay
-    seealso: [kml_crop_plot, kml_add_groundoverlay, kml_get_vp_latlonbox]
+    seealso: [kml_add_screenoverlay]
 ---
 
 ### Prototype
@@ -12,12 +12,12 @@
 <pre><code>load "/usr/local/lib/ncarg/nclscripts/csm/gsn_code.ncl"
 load "/usr/local/lib/ncarg/nclscripts/kml/kml.ncl"
 
-function kml_get_vp_cropbox (
-  wks:graphic,
-  plot:graphic
+function kml_crop_labelbar ( 
+    wks:graphic,
+    plot:graphic
 )
 
-returnval [6]  :  string
+returnval  :  string
 </code></pre>
 
 ### Arguments
@@ -31,9 +31,11 @@ A plot identifier created using [gsn_csm_contour_map_ce](http://ncl.ucar.edu/Doc
 
 ### Return value
 
-Returns a string array of length 6 containing the top, bottom, left, and right page coordinates of the map portion of a plot, the file name of the postscript file to be cropped, and the file name of the intended cropped png file.
+Returns a string containing the file name of the cropped png.
 
 ### Description
+
+The function [kml_crop_labelbar]({{site.base_url}}/functions/kml_crop_plot) uses the built-in NCL function **system** to call the Imagemagick function **convert**.  
 
 ### See Also
 

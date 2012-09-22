@@ -25,7 +25,7 @@ returnval [*]  :  string
 ### Arguments
 *kml*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.base_url}}functions/kml_open_document.html).
+A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.base_url}}/functions/kml_open_document.html).
 
 *name*
 
@@ -50,7 +50,7 @@ For more information about the ScreenOverlay element, see the [Google KML Refere
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}]({{site.base_url}}functions/{{seealso}}.html)
+[{{seealso}}]({{site.base_url}}/functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples

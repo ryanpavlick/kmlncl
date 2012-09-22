@@ -22,7 +22,7 @@ returnval [*]  :  string
 ### Arguments
 *kml*
 
-A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.base_url}}functions/kml_open_document.html).
+A string array containing a KML document and associated attributes created with the function [kml_open_document]({{site.base_url}}/functions/kml_open_document.html).
 
 ### Return value
 
@@ -30,14 +30,14 @@ Returns a string array containing a KML document with a ``</Folder>`` tag append
 
 ### Description
 
-Folder elements are used to arrange other Feature elements hierarchically and may contain Placemarks, NetworkLinks, Overlays, and other Folders. Once all desired Feature elements have been added, the Folder element must be closed with the function [kml_close_folder]({{site.base_url}}functions/kml_close_folder.html). 
+Folder elements are used to arrange other Feature elements hierarchically and may contain Placemarks, NetworkLinks, Overlays, and other Folders. Once all desired Feature elements have been added, the Folder element must be closed with the function [kml_close_folder]({{site.base_url}}/functions/kml_close_folder.html). 
 
 For more information about the Folder element, see the [Google KML Reference](https://developers.google.com/kml/documentation/kmlreference#folder) page or the [OGC KML specification](http://www.opengeospatial.org/standards/kml/).
 
 ### See Also
 
 {% for seealso in page.seealso %}
-[{{seealso}}]({{site.base_url}}functions/{{seealso}}.html)
+[{{seealso}}]({{site.base_url}}/functions/{{seealso}}.html)
 {% endfor %}
 
 ### Examples

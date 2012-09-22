@@ -8,31 +8,31 @@ layout: default
 
 <td width="33%"><a href="https://www.ncl.ucar.edu" id="fat">NCL</a> is an open-source scripting language specifically designed for scientific data processing and visualization.</td>  
 
-<td width="33%">The <a href="{{site.base_url}}index.html#installing_kml" id="fat">kmlncl</a> library leverages the unique capabilities of NCL making it easy to produce engaging KML visualizations.</td>
+<td width="33%">The <a href="{{site.base_url}}/index.html#installing_kml" id="fat">kmlncl</a> library leverages the unique capabilities of NCL making it easy to produce engaging KML visualizations.</td>
 </tr>
 </table>
 
 <div id='coin-slider'>
-	<a href="{{site.base_url}}examples/#ex_02" target="_blank">
-		<img src='{{site.base_url}}img/slide-1.png'>
+	<a href="{{site.base_url}}/examples/#ex_02" target="_blank">
+		<img src='{{site.base_url}}/img/slide-1.png'>
 		<span>
 			Example 02: Polygon, PolyStyle
 		</span>
 	</a>
-	<a href="{{site.base_url}}examples/#ex_03">
-		<img src='{{site.base_url}}img/slide-2.png'>
+	<a href="{{site.base_url}}/examples/#ex_03">
+		<img src='{{site.base_url}}/img/slide-2.png'>
 		<span>
 			Example 03: NetworkLink, BalloonStyle
 		</span>
 	</a>
-	<a href="{{site.base_url}}examples/#ex_04">
-		<img src='{{site.base_url}}img/slide-3.png'>
+	<a href="{{site.base_url}}/examples/#ex_04">
+		<img src='{{site.base_url}}/img/slide-3.png'>
 		<span>
 			Example 04: 3D COLLADA Models
 		</span>
 	</a>
-	<a href="{{site.base_url}}examples/#ex_05">
-		<img src='{{site.base_url}}img/slide-4.png'>
+	<a href="{{site.base_url}}/examples/#ex_05">
+		<img src='{{site.base_url}}/img/slide-4.png'>
 		<span>
 			Example 05: GroundOverlay, ScreenOverlay
 		</span>
