@@ -1,1 +1,3 @@
 _site
+examples/*.k*
+examples/*.p*
