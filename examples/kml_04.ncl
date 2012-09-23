@@ -10,7 +10,7 @@
 ;*************************************************
 
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_code.ncl"
-load "../kml/kml.ncl"
+load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
   
   x = -96.0195      ; longitude of first wind turbine model
   y = 40.0088       ; latitude of first wind turbine model

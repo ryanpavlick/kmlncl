@@ -10,7 +10,7 @@
 ;************************************************
 
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_code.ncl"
-load "../kml/kml.ncl"
+load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
 
 begin
 ;************************************************

@@ -12,7 +12,7 @@
 
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_code.ncl"
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_csm.ncl"
-load "../kml/kml.ncl"
+load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
 
 ;************************************************
 ; read in netCDF file
@@ -81,7 +81,7 @@ load "../kml/kml.ncl"
   lbicon = kml_crop_labelbar(kml, "label bar", wks,plot, kres)
   
   ; add labelbar to KML document as a ScreenOverlay element
-   kml_add_screenoverlay ( kml, "Label Bar", lbicon, kres )
+  kml = kml_add_screenoverlay ( kml, "Label Bar", lbicon, kres )
    
   ; add cropped labelbar filename to list of files to be compressed in KMZ archive
   kml_add_kmzfile(kml,lbicon)

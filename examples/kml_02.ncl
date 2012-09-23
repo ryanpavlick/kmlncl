@@ -5,7 +5,11 @@
 ; Based on NCL example script polyg_1.ncl by Mark Stevens
 ;
 ; Concepts illustrated:
-;   - Drawing the climate divisions of the U.S.
+;   - Opening and closing a KML document
+;   - Adding a Polygon elements 
+;   - Styling Polygon elements with the PolyStyle element
+;   - Writing a KML document to a file
+;
 ;
 ;**************************************************
 ; based on polyg_1.ncl written by Mark Stevens 07/07/00
@@ -14,13 +18,11 @@
 
 ;*************************************************
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_code.ncl"
-load "../kml/kml.ncl"
+load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
 
-;************************************************
-; get pointer to netcdf file with polygons
-;************************************************
- fname = "$NCARG_ROOT/lib/ncarg/data/cdf/climdiv_polygons.nc"
- ncdf = addfile(fname,"r")
+; load the netcdf containing US climate divisions
+  fname = "$NCARG_ROOT/lib/ncarg/data/cdf/climdiv_polygons.nc"
+  ncdf = addfile(fname,"r")
  
 ;************************************************
 ; some parameters
@@ -41,30 +43,32 @@ load "../kml/kml.ncl"
   kmlfilename = "example02"
 
   kml = kml_open_document(kmlfilename, "US Climate Divisions", False)  ; open a new KML document
+  
+; set some KML resources
   kres = True
   kres@kmlTessellate = 1
-  kres@kmlExtrude = 1
+  kres@kmlExtrude = 0
   kres@kmlAltitudeMode = "clampToGround"
 
 ;*********************************************
-; get the polygon data and fill polygons with 
-; random colors using the default color table
+; and fill polygons with random colors
+; using the PolyStyle element
 ;*********************************************
 
-  kres@kmlID = "polygonstyle"
-  kres@kmlColorMode = "random"
+  kres@kmlID = "polygonstyle"      ; set the ID for the Style element
+  kres@kmlColorMode = "random"     ; fill the polygons with random colors
   kres@kmlColor = "ffffffff"
-  kres@kmlFill = 1
-  kres@kmlOutline = 1
+  kres@kmlFill = 1                 ; polygons should be filled
+  kres@kmlOutline = 1              ; draw polygon borders
   
-  kml = kml_open_style(kml,kres)                           ; open a Placemark element
-  kml = kml_add_polystyle(kml, kres)
-  kml = kml_close_style(kml)
+  kml = kml_open_style(kml,kres)                           ; open a Style element
+  kml = kml_add_polystyle(kml, kres)                       ; add a PolyStyle element
+  kml = kml_close_style(kml)                               ; close Style element
   delete(kres@kmlID)
 
   do st = 1, 48
     do cd = 1, ncds(st-1)
-      varstr = statenames(st-1)+"_CD"+cd
+      varstr = statenames(st-1)+"_CD"+cd     ; get the polygon data
       x = ncdf->$varstr$@lon                 ; get lon stored in attribute
       y = ncdf->$varstr$@lat                 ; get lat stored in attribute
 
@@ -72,13 +76,14 @@ load "../kml/kml.ncl"
       z = y
       z = 0.0
       
-      kres@kmlStyleUrl = "#polygonstyle"
+      kres@kmlStyleUrl = "#polygonstyle"                       ; refer to PolyStyle element added above
       kml = kml_open_placemark(kml, varstr, kres)              ; open a Placemark element
         kml = kml_open_polygon(kml,kres)                       ; open a Polygon element
         kml = kml_add_polygon_outer(kml,x,y,z,kres)            ; add a Polygon outer ring
         kml = kml_close_polygon(kml)                           ; close the Polygon element 
       kml = kml_close_placemark(kml)                           ; close the Placemark element
 
+      ; delete some variables before the next iteration of the loop
       delete(varstr)
       delete(x)
       delete(y)
@@ -86,8 +91,8 @@ load "../kml/kml.ncl"
     end do
   end do
 
-  kml = kml_close_document(kml)                                ; close the KML document
+  kml = kml_close_document(kml)     ; close the KML document
 
-  kml_write(kml)   
+  kml_write(kml)                    ; write KML document to file "example02.kml"
 
 ;********************************************

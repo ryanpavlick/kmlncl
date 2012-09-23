@@ -366,10 +366,19 @@ begin
     delete(kml_entry)
   end if
 
-  kml_entry=(/"address","Snippet","description"/)
+  kml_entry=(/"address","Snippet"/)
   kml_setline_singletag(kml,kml_entry,res)
   delete(kml_entry)
 
+  if (isatt(res,"kmlDescription")) then
+    kml_entry = (/ \
+    "<description>", \
+      "<![CDATA["+res@kmlDescription+"]]>", \
+    "</description>" \
+    /)
+    kml_setline(kml,kml_entry)
+    delete(kml_entry)
+  end if
   ;
   ; <TimeSpan id="ID">
   ;   <begin>...</begin>     <!-- yyyy-mm-ddThh:mm:sszzzzzz -->
@@ -1113,17 +1122,9 @@ begin
   ;   <displayMode>default</displayMode>     <!-- kml:displayModeEnum -->
   ; </BalloonStyle>
 
-  kml_entry = "BalloonStyle"
-  kml_setline_idtag(kml,kml_entry,res)
-  delete(kml_entry)
+  kml_setline_idtag(kml,"BalloonStyle",res)
 
-  if (isatt(res,"kmlBGColor")) then
-    kml_entry = "<bgColor>"+res@kmlBGColor+"</bgColor>"
-    kml_setline(kml,kml_entry)
-    delete(kml_entry)
-  end if
-
-  kml_entry=(/"textColor","text","displayMode"/)
+  kml_entry=(/"bgColor", "textColor","text","displayMode"/)
   kml_setline_singletag(kml,kml_entry,res)
   delete(kml_entry)
 
@@ -1155,17 +1156,14 @@ begin
   ;   </ItemIcon>
   ; </ListStyle>
 
-  kml_entry = "ListStyle"
-  kml_setline_idtag(kml,kml_entry,res)
+  kml_setline_idtag(kml,"ListStyle",res)
+
+  kml_entry=(/"listItemType","bgColor"/)
+  kml_setline_singletag(kml,kml_entry,res)
   delete(kml_entry)
 
-  if (isatt(res,"kmlBGColor")) then
-    kml_entry = "<bgColor>"+res@kmlBGColor+"</bgColor>"
-    kml_setline(kml,kml_entry)
-    delete(kml_entry)
-  end if
-
-  if (isatt(res,"kmlItemIcon").and.res@kmlItemIcon) then
+  ; NEEDS ERROR CHECKING
+  if (isatt(res,"kmlItemIcon") .and. res@kmlItemIcon) then
     kml_entry = "<ItemIcon>"
     kml_entry@single_tags=(/"state","href"/)
     kml_entry@close_tag=True
@@ -1238,10 +1236,7 @@ begin
   ;
   ; </LookAt>
 
-  kml_entry = "LookAt"
-  kml_setline_idtag(kml,kml_entry,res)
-  delete(kml_entry)
-
+  kml_setline_idtag(kml,"LookAt",res)
   ;
   ; <TimeSpan id="ID">
   ;   <begin>...</begin>     <!-- yyyy-mm-ddThh:mm:sszzzzzz -->
@@ -1322,10 +1317,8 @@ begin
   ;         <!-- or, gx:altitudeMode can be substituted: clampToSeaFloor, relativeToSeaFloor -->
   ; </Camera>
 
-  kml_entry = "Camera"
-  kml_setline_idtag(kml,kml_entry,res)
-  delete(kml_entry)
-
+  kml_setline_idtag(kml,"Camera",res)
+  
   ;
   ; <TimeSpan id="ID">
   ;   <begin>...</begin>     <!-- yyyy-mm-ddThh:mm:sszzzzzz -->
@@ -1433,13 +1426,10 @@ begin
   ;   <MultiGeometry>...</MultiGeometry>
   ; </Placemark>
 
-  kml_entry = "Placemark"
-  kml_setline_idtag(kml,kml_entry,res)
-  delete(kml_entry)
+  kml_setline_idtag(kml,"Placemark",res)
 
   kml = kml_feature_attr(kml, name, res)
 
-  ; specific to Placemark
   kml_setline(kml,"<MultiGeometry>")
 
   return(kml)
