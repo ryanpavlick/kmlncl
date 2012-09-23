@@ -8,7 +8,7 @@ layout: default
 
 <td width="33%"><a href="https://www.ncl.ucar.edu" id="fat">NCL</a> is an open-source scripting language specifically designed for scientific data processing and visualization.</td>  
 
-<td width="33%">The <a href="{{site.base_url}}/index.html#installing_kml" id="fat">kmlncl</a> library leverages the unique capabilities of NCL making it easy to produce engaging KML visualizations.</td>
+<td width="33%"><a href="{{site.base_url}}/index.html#installing_kml" id="fat">kmlncl</a> is an NCL library which makes it easy to produce engaging KML visualizations.</td>
 </tr>
 </table>
 
