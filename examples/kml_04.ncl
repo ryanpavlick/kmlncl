@@ -4,8 +4,8 @@
 ; 
 ; Concepts illustrated:
 ;  - opening, closing, writing a KML document
-;  - adding a Placemark element  containing Model elements
-;  - making kmz file
+;  - adding a Placemark element containing Model elements
+;  - creating a kmz file
 ;
 ;*************************************************
 
@@ -16,7 +16,8 @@ load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
   y = 40.0088       ; latitude of first wind turbine model
   z = 0.            ; altitude of first wind turbine model
   
-  kml = kml_open_document("example04", "Example 04: Adding 3D COLLADA models",False)    ; open new kml document
+  ; open new kml document
+  kml = kml_open_document("example04", "Example 04: Adding 3D COLLADA models",False)   
   
   ; zoom in to 347 meters altitude near wind farm
   kres = True
@@ -55,7 +56,7 @@ load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
   kml_add_kmzfile(kml,"examplefiles/images/*")
     
   kml = kml_close_document(kml)  ; close kml document
-  kml_write(kml)                 ; write kml document to file example03.kml
+  kml_write(kml)                 ; write kml document to file example04.kml
   kml_make_kmz(kml)              ; zip kml file and overlay images together in example04.kmz
   
 
