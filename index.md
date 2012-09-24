@@ -40,7 +40,7 @@ layout: default
 	<a href="{{site.base_url}}/examples/#ex_06">
   		<img src='{{site.base_url}}/img/slide-5.png'>
   		<span>
-  			Example 05: GroundOverlay, ScreenOverlay, LookAt
+  			Example 06: GroundOverlay, ScreenOverlay, LookAt
   		</span>
 	</a>
 </div>
