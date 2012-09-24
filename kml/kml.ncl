@@ -668,9 +668,15 @@ end
 
 undef("kml_crop_plot")
 function kml_crop_plot ( cropbox:string, res:logical )
-local cropbox, icon, convertcmd, res
+local cropbox, icon, convertcmd, res, AlphaColor
 begin
-  convertcmd = "convert +repage -depth 8 -crop "+cropbox(0)+"x"+cropbox(1)+"+"+cropbox(2)+"+"+cropbox(3)+" "+cropbox(4)+"  "+cropbox(5)
+
+  AlphaColor = ""
+  if(isatt(res,"kmlCropAlphaColor")) then 
+   AlphaColor = " -transparent "+res@kmlCropAlphaColor
+  end if
+
+  convertcmd = "convert "+cropbox(4)+" -crop "+cropbox(0)+"x"+cropbox(1)+"+"+cropbox(2)+"+"+cropbox(3)+" "+AlphaColor+" +repage -depth 8 "+cropbox(5)
   print(convertcmd)
   system(convertcmd)
   

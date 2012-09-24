@@ -5,6 +5,7 @@
 ; Concepts illustrated:
 ;  - opening, closing, writing a KML document
 ;  - adding a Placemark element containing Model elements
+;  - adding a Camera element
 ;  - creating a kmz file
 ;
 ;*************************************************
