@@ -31,24 +31,24 @@ layout: default
 			Example 04: 3D COLLADA Models, Camera
 		</span>
 	</a>
-  <a href="{{site.base_url}}/examples/#ex_05">
+  <!-- <a href="{{site.base_url}}/examples/#ex_05">
     <img src='{{site.base_url}}/img/slide-4.png'>
     <span>
       Example 05: GroundOverlay, ScreenOverlay
     </span>
-  </a>
+  </a> -->
 	<a href="{{site.base_url}}/examples/#ex_06">
   		<img src='{{site.base_url}}/img/slide-5.png'>
   		<span>
   			Example 06: GroundOverlay, ScreenOverlay, LookAt
   		</span>
 	</a>
-  <!-- <a href="{{site.base_url}}/examples/#ex_07">
+  <a href="{{site.base_url}}/examples/#ex_07">
       <img src='{{site.base_url}}/img/animated_kml.gif'>
       <span>
         Example 07: Animation, Folder
       </span>
-  </a> -->
+  </a>
 </div>
 
 ### Installing kmlncl
