@@ -153,8 +153,8 @@ begin
 ;************************************************
 
   kml = kml_close_document(kml)    ; close the kml document
-  kml_write(kml)                   ; write kml document to file "example_06.kmz"
-  kml_make_kmz(kml)                ; zip kml file and overlay images together in to "example_06.kmz"
+  kml_write(kml)                   ; write kml document to file "example06.kmz"
+  kml_make_kmz(kml)                ; zip kml file and overlay images together in to "example06.kmz"
 
 end
 

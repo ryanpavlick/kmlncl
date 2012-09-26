@@ -108,9 +108,9 @@ load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
   ; close kml document
   kml = kml_close_document(kml) 
 
-  ; write kml document to file "example_05.kml"
+  ; write kml document to file "example05.kml"
   kml_write(kml)            
   
-  ; zip kml file and overlay images together in to "example_05.kmz"
+  ; zip kml file and overlay images together in to "example05.kmz"
   kml_make_kmz(kml)         
 
