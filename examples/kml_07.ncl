@@ -9,6 +9,7 @@
 ;  - setting certain areas transparent with kmlCropAlphaColor
 ;  - adding a labelbar as a ScreenOverlay
 ;  - adding a LookAt element
+;  - adding a Folder element
 ;  - creating a KMZ file 
 ;
 ;************************************************
@@ -130,7 +131,9 @@ begin
   kml = kml_add_screenoverlay ( kml, "Label Bar", lbicon, kres)     ; add labelbar to KML document as a ScreenOverlay element
   kml_add_kmzfile(kml,lbicon)                                       ; add cropped labelbar filename to list of files to be compressed in KMZ archive
 
-  kml_folder = kml_open_folder(kml, "GroundOverlay Folder",False)  
+  kml = kml_add_lookat( kml, 19, -32, 0.0, 4616152, kres)           ; add a LookAt element
+
+  kml_folder = kml_open_folder(kml, "GroundOverlay Folder",False)   ; put all GroundOverlay elements in one folder
 
 do i=1,ntimes-1
 
@@ -186,8 +189,8 @@ do i=1,ntimes-1
  stimebegin  = ut_string(timeDouble1,format)
  stimeend    = ut_string(timeDouble2,format)
 
- kres@kmlTimeSpanBegin = stimebegin 
- kres@kmlTimeSpanEnd   = stimeend   
+ kres@kmlTimeSpanBegin = stimebegin         ; set a begin time for the timespan element
+ kres@kmlTimeSpanEnd   = stimeend           ; set an end time for the timespan element
 
   kres@kmlCropAlphaColor = "white"          ; kml_crop_plot will now set white areas of the map to transparent
   icon = kml_crop_plot(cropbox, kres)       ; crops the groundoverlay map and converts it to png
@@ -202,7 +205,7 @@ end do
 ;************************************************
 ;  close, write, and archive the KML document 
 ;************************************************
-  kml_folder=kml_close_folder(kml)
+  kml_folder=kml_close_folder(kml) ; close the folder
   kml = kml_close_document(kml)    ; close the kml document
   kml_write(kml)                   ; write kml document to file "example_07.kmz"
   kml_make_kmz(kml)                ; zip kml file and overlay images together in to "example_07.kmz"
