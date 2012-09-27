@@ -1,0 +1,23 @@
+## New functions ##
+
+kml_convert_ncl_color: convert ncl colors to kml color alpha-blue-green-red
+kml_format_time: format time in (YYYY-MM-DDThh:mm:ssZ)
+kml_add_region
+kml_add_networklinkcontrol
+
+## Testing/example scripts ##
+kml_add_photooverlay
+
+## Improvements ##
+kml_feature_attr: ExtendedData tag
+error check resources
+resourcemap in kml_add_model
+kml_add_photooverlay: ImagePyramid
+
+## Documentation/example scripts ##
+kml_add_linestring: needs example
+kml_add_linearring: needs example
+kml_add_photooverlay
+
+
+## Bug fixes ##
