@@ -1,4 +1,3 @@
 _site
-examples/*.k*
 examples/*.p*
 .DS_Store
