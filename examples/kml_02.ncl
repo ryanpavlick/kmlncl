@@ -94,5 +94,5 @@ load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
   kml = kml_close_document(kml)     ; close the KML document
 
   kml_write(kml)                    ; write KML document to file "example02.kml"
-
+  kml_make_kmz(kml)
 ;********************************************
