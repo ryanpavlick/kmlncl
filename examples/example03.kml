@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>NetworkLink Example</name>
+<Style id="exampleballoonstyle">
+<BalloonStyle id="exampleballoonstyle">
+<bgColor>ffffffbb</bgColor>
+</BalloonStyle>
+</Style>
+<NetworkLink>
+<name>South America 24h MODIS Hotspots</name>
+<description>
+<![CDATA[MODIS Hotspots for South America. <br><br> For more information, visit FIRMS home page @ <a href="https://earthdata.nasa.gov/data/nrt-data/firms">https://earthdata.nasa.gov/data/nrt-data/firms</a>]]>
+</description>
+<styleUrl>#exampleballoonstyle</styleUrl>
+<flyToView>1</flyToView>
+<Link>
+<href>http://firms.modaps.eosdis.nasa.gov/active_fire/kml/South_America_24h.kml</href>
+<refreshMode>onInterval</refreshMode>
+<refreshInterval>7200</refreshInterval>
+</Link>
+</NetworkLink>
+</Document>
+</kml>
+

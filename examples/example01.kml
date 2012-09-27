@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>A KML of Two Cities</name>
+<Placemark>
+<name>Eiffel Tower</name>
+<MultiGeometry>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>2.2946,48.8584,0</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>Big Ben</name>
+<MultiGeometry>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-0.1246,51.5006,0</coordinates>
+</Point>
+</MultiGeometry>
+</Placemark>
+</Document>
+</kml>
+
