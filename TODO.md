@@ -14,12 +14,12 @@
  - kml_feature_attr: AbstractView tag
  - kml_add_model: ResourceMap tag
  - kml_add_photooverlay: ImagePyramid tag
-All functions: Error checking
+ - All functions: Error checking
 
 ## Documentation/example scripts ##
  - kml_add_linestring: needs example
  - kml_add_linearring: needs example
  - kml_add_photooverlay: needs testing, example, documentation
-All resources: documentation
+ - All resources: documentation
 
 ## Bug fixes ##
