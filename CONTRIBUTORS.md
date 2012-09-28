@@ -9,7 +9,7 @@ and distribute copies of any Contribution, as well as to create and distribute c
 derivative works of any Contribution, under the BSD 2-Clause License.
 
 ## Author: ##
-- Ryan Pavlick (http://github.com/rpavlick)
+- Ryan Pavlick <http://github.com/rpavlick>
 
 ## Contributors ##
 - Álvaro M. Valdebenito B., Dr. rer. nat. <alvaro.valdebenito@met.no>
