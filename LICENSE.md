@@ -4,7 +4,7 @@ See the CONTRIBUTORS.md file for a full list of copyright holders.
 kmlncl is free software licensed under the 2-clause BSD License.
 
 The license text can also be found here:
-http://www.opensource.org/licenses/BSD-2-Clause
+<http://www.opensource.org/licenses/BSD-2-Clause>
 
 License
 =======
