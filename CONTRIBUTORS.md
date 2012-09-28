@@ -2,7 +2,7 @@ Contributors offer to license certain software (a “Contribution” or multiple
 “Contributions”) to Ryan Pavlick, and Ryan Pavlick agrees to accept said Contributions,
 under the terms of the BSD 2-Clause license.  
 
-See the LICENSE file for the full terms of this license.
+See the LICENSE.md file for the full terms of this license.
 
 Contributors understand and agree that Ryan Pavlick shall have the irrevocable and perpetual right to make
 and distribute copies of any Contribution, as well as to create and distribute collective works and

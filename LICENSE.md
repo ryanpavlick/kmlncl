@@ -1,5 +1,5 @@
 Copyright (c) 2010-2012 Ryan Pavlick and individual contributors.  All rights reserved.
-See the CONTRIBUTORS file for a full list of copyright holders.
+See the CONTRIBUTORS.md file for a full list of copyright holders.
 
 kmlncl is free software licensed under the 2-clause BSD License.
 
