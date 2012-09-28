@@ -73,9 +73,9 @@ For general questions about KML, please refer to the [Google KML documention](ht
 
 ### License
 
-Copyright &copy; 2010-2012, [Ryan Pavlick](http://github.com/rpavlick) and contributors. See the [`CONTRIBUTORS`](https://github.com/rpavlick/kmlncl/blob/master/CONTRIBUTORS) file for a full list of copyright holders.
+Copyright &copy; 2010-2012, [Ryan Pavlick](http://github.com/rpavlick) and contributors. See the [`CONTRIBUTORS.md`](https://github.com/rpavlick/kmlncl/blob/master/CONTRIBUTORS.md) file for a full list of copyright holders.
 
-kmlncl is free software licensed under the BSD 2-clause license. See the [`LICENSE`](https://github.com/rpavlick/kmlncl/blob/master/LICENSE) file for the full terms of this license. Unless otherwise specified, any contributions will be assumed to be licensed under the same terms.
+kmlncl is free software licensed under the BSD 2-clause license. See the [`LICENSE.md`](https://github.com/rpavlick/kmlncl/blob/master/LICENSE.md) file for the full terms of this license. Unless otherwise specified, any contributions will be assumed to be licensed under the same terms.
 
 <script type="text/javascript">
 	$(document).ready(function() {
