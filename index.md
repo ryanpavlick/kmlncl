@@ -61,7 +61,7 @@ Untar it and copy the `kml` subdirectory to your `nclscripts` directory:
     % cd kmlncl
     % cp -r kml $NCARG_ROOT/lib/ncarg/nclscripts
     
-The kmlncl library **requires** NCL version 6.10-beta. Some functions require <a href="http://www.imagemagick.org">ImageMagick</a>. We also recommend installing the latest version of [Google Earth](http://www.google.com/earth).
+The kmlncl library **requires** NCL version 6.10-beta or later. Some functions require <a href="http://www.imagemagick.org">ImageMagick</a>. We also recommend installing the latest version of [Google Earth](http://www.google.com/earth).
 
 ### Feedback
 
