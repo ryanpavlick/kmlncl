@@ -49,6 +49,12 @@ layout: default
         Example 07: Animation, Folder
       </span>
   </a>
+  <a href="{{site.base_url}}/examples/#ex_8">
+      <img src='{{site.base_url}}/img/slide-8.png'>
+      <span>
+        Example 08: get_isolines, LineString
+      </span>
+  </a>
 </div>
 
 ### Installing kmlncl
