@@ -646,7 +646,7 @@ begin
 
   kml_entry = (/ \
   "<?xml version=" + kml@quote + "1.0" + kml@quote + " encoding=" + kml@quote + "UTF-8" + kml@quote + "?>", \
-  "<kml xmlns=" + kml@quote + "http://www.opengis.net/kml/2.2" + kml@quote + ">" \
+  "<kml xmlns=" + kml@quote + "http://www.opengis.net/kml/2.2" + kml@quote + " " +  "xmlns:gx=" + kml@quote + "http://www.google.com/kml/ext/2.2" + kml@quote + ">" \
   /)
   kml_setline(kml,kml_entry)
   delete(kml_entry)
@@ -1436,8 +1436,6 @@ begin
 
   kml = kml_feature_attr(kml, name, res)
 
-  kml_setline(kml,"<MultiGeometry>")
-
   return(kml)
 end ;kml_open_placemark
 ; *****************************************************************
@@ -1531,28 +1529,29 @@ begin
 end ;kml_add_linestring
 ; *****************************************************************
 
+
 ;************************************************************
 ; comments
 
-undef("kml_add_linearring")
-function kml_add_linearring ( kml:string, x[*]:numeric, y[*]:numeric, z[*]:numeric, res:logical )
+undef("kml_add_linestring")
+function kml_add_linestring ( kml:string, x[*]:numeric, y[*]:numeric, z[*]:numeric, res:logical )
 local kml, kml_entry, res
 begin
 
-  ; <LinearRing id="ID">
-  ;   <!-- specific to LinearRing -->
-  ;   <gx:altitudeOffset>0</gx:altitudeOffset>   <!-- double -->
-  ;   <extrude>0</extrude>                       <!-- boolean -->
-  ;   <tessellate>0</tessellate>                 <!-- boolean -->
-  ;   <altitudeMode>clampToGround</altitudeMode> 
-  ;     <!-- kml:altitudeModeEnum: clampToGround, relativeToGround, or absolute -->
-  ;     <!-- or, substitute gx:altitudeMode: clampToSeaFloor, relativeToSeaFloor -->
-  ;   <coordinates>...</coordinates>             <!-- lon,lat[,alt] tuples --> 
-  ; </LinearRing>
+  ; <LineString id="ID">
+  ;   <!-- specific to LineString -->
+  ;   <extrude>0</extrude>                   <!-- boolean -->
+  ;   <tessellate>0</tessellate>             <!-- boolean -->
+  ;   <altitudeMode>clampToGround</altitudeMode>
+  ;       <!-- kml:altitudeModeEnum: clampToGround, relativeToGround, or absolute -->
+  ;         <!-- or, substitute gx:altitudeMode: clampToSeaFloor, relativeToSeaFloor -->
+  ;       <!-- or, substitute gx:altitudeMode: clampToSeaFloor, relativeToSeaFloor -->
+  ;   <coordinates>...</coordinates>         <!-- lon,lat[,alt] -->
+  ; </LineString>
 
   ; TODO: error check dimension sizes
 
-  kml_entry = "LinearRing"
+  kml_entry = "LineString"
   kml_entry@single_tags=(/"extrude","tessellate"/)
   kml_setline_idtag(kml,kml_entry,res)
   delete(kml_entry)
@@ -1577,10 +1576,75 @@ begin
   end do
 
   kml_setline(kml,"</coordinates>")
-  kml_setline(kml,"</LinearRing>")
+  kml_setline(kml,"</LineString>")
 
   return(kml)
-end ;kml_add_linearring
+end ;kml_add_linestring
+; *****************************************************************
+
+;************************************************************
+; comments
+
+undef("kml_add_gxtrack")
+function kml_add_gxTrack ( kml:string, x[*]:numeric, y[*]:numeric, z[*]:numeric, time[*]:string, res:logical )
+local kml, kml_entry, res
+begin
+
+	; <gx:Track id="ID">
+	;   <!-- specific to Track -->
+	;   <altitudeMode>clampToGround</altitudeMode>
+	;       <!-- kml:altitudeModeEnum: clampToGround, relativeToGround, or absolute -->
+	;       <!-- or, substitute gx:altitudeMode: clampToSeaFloor, relativeToSeaFloor -->
+	;   <when>...</when>                         <!-- kml:dateTime -->
+	;   <gx:coord>...</gx:coord>                 <!-- string -->
+	;   <gx:angles>...</gx:angles>               <!-- string -->
+	;   <Model>...</Model>
+	;   <ExtendedData>
+	;     <SchemaData schemaUrl="anyURI">
+	;       <gx:SimpleArrayData kml:name="string">
+	;         <gx:value>...</gx:value>            <!-- string -->
+	;       </gx:SimpleArrayData>
+	;     <SchemaData>
+	;   </ExtendedData>
+	; </gx:Track>
+
+  ; TODO: missing values are blank in coord
+  ; TODO: gx:angles
+  ; TODO: Model
+  ; TODO: extended data
+
+  kml_entry = "gx:Track"
+  kml_setline_idtag(kml,kml_entry,res)
+  delete(kml_entry)
+
+  kml = kml_altitudeMode_attr(kml,res)
+
+  nx = dimsizes(x)
+  ny = dimsizes(y)
+  nz = dimsizes(z)
+  nt = dimsizes(time)
+
+  if ((nx .ne.  ny) .or. (nx .ne. nz) .or. (nx .ne. nt)) then
+    print("kml_add_track: Fatal: dimensions of x, y, z, and time must be equal.")
+    return
+  end if
+
+  do i = 0, nt-1
+    kml_entry = "<when>" + time(i) + "</when>"
+    kml_setline(kml,kml_entry)
+    delete(kml_entry)
+  end do
+  
+  do i = 0, nx-1
+    kml_entry = "<gx:coord>" + x(i) + " " + y(i) + " " + z(i) + "</gx:coord>"
+    kml_setline(kml,kml_entry)
+    delete(kml_entry)
+  end do
+
+  kml_setline(kml,"</gx:Track>")
+
+  return(kml)
+end ;kml_add_gxtrack
 ; *****************************************************************
 
 
@@ -1741,7 +1805,6 @@ function kml_close_placemark ( kml:string )
 local kml
 begin
 
-  kml_setline(kml,"</MultiGeometry>")
   kml_setline(kml,"</Placemark>" )
 
   return(kml)
