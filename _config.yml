@@ -2,5 +2,5 @@ safe: true
 pygments: true
 lsi: false
 permalink: /:categories/:title.html
-base_url: http://rpavlick.github.io/kmlncl
+base_url: http://consideragainthat.org/kmlncl
 #base_url: 
