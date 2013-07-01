@@ -1,0 +1,2075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+<name>Tropical cyclone tracks</name>
+<Folder>
+<name>North Atlantic basin</name>
+<Placemark>
+<name>PHOEBE</name>
+  <ExtendedData>
+    <Data name="holeNumber">
+      <value>1</value>
+    </Data>
+    <Data name="holeYardage">
+      <value>234</value>
+    </Data>
+    <Data name="holePar">
+      <value>4</value>
+    </Data>
+  </ExtendedData>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-06-08T18:00Z</when>
+<when>2005-06-09T00:00Z</when>
+<when>2005-06-09T06:00Z</when>
+<when>2005-06-09T12:00Z</when>
+<when>2005-06-09T18:00Z</when>
+<when>2005-06-10T00:00Z</when>
+<when>2005-06-10T06:00Z</when>
+<when>2005-06-10T08:00Z</when>
+<when>2005-06-10T12:00Z</when>
+<when>2005-06-10T18:00Z</when>
+<when>2005-06-11T00:00Z</when>
+<when>2005-06-11T01:00Z</when>
+<when>2005-06-11T06:00Z</when>
+<when>2005-06-11T12:00Z</when>
+<when>2005-06-11T18:00Z</when>
+<when>2005-06-11T19:00Z</when>
+<when>2005-06-12T00:00Z</when>
+<when>2005-06-12T06:00Z</when>
+<when>2005-06-12T12:00Z</when>
+<when>2005-06-12T18:00Z</when>
+<when>2005-06-13T00:00Z</when>
+<when>2005-06-13T06:00Z</when>
+<when>2005-06-13T12:00Z</when>
+<when>2005-06-13T18:00Z</when>
+<when>2005-06-14T00:00Z</when>
+<when>2005-06-14T06:00Z</when>
+<gx:coord>276 16.9 0</gx:coord>
+<gx:coord>276.1 17.4 0</gx:coord>
+<gx:coord>276.1 18.2 0</gx:coord>
+<gx:coord>276 19 0</gx:coord>
+<gx:coord>275.9 19.7 0</gx:coord>
+<gx:coord>275.8 20.4 0</gx:coord>
+<gx:coord>275.6 21.2 0</gx:coord>
+<gx:coord>275.5 21.8 0</gx:coord>
+<gx:coord>275.3 23 0</gx:coord>
+<gx:coord>274.9 24.9 0</gx:coord>
+<gx:coord>274.4 26.5 0</gx:coord>
+<gx:coord>274.4 26.5 0</gx:coord>
+<gx:coord>273.2 27.7 0</gx:coord>
+<gx:coord>272.8 28.9 0</gx:coord>
+<gx:coord>272.5 30.1 0</gx:coord>
+<gx:coord>272.5 30.3 0</gx:coord>
+<gx:coord>272.4 31.4 0</gx:coord>
+<gx:coord>272.3 32.7 0</gx:coord>
+<gx:coord>272 35 0</gx:coord>
+<gx:coord>272.2 37 0</gx:coord>
+<gx:coord>272.5 38.5 0</gx:coord>
+<gx:coord>274 40.5 0</gx:coord>
+<gx:coord>275 42 0</gx:coord>
+<gx:coord>276 43 0</gx:coord>
+<gx:coord>278.9 43.7 0</gx:coord>
+<gx:coord>282.4 44.8 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>AROLA</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-06-28T18:00Z</when>
+<when>2005-06-28T22:35Z</when>
+<when>2005-06-29T00:00Z</when>
+<when>2005-06-29T06:00Z</when>
+<when>2005-06-29T12:00Z</when>
+<when>2005-06-29T18:00Z</when>
+<when>2005-06-30T00:00Z</when>
+<gx:coord>264.6 19.7 0</gx:coord>
+<gx:coord>264.3 19.9 0</gx:coord>
+<gx:coord>264.2 20 0</gx:coord>
+<gx:coord>263.6 20.4 0</gx:coord>
+<gx:coord>262.7 20.8 0</gx:coord>
+<gx:coord>261.9 21.4 0</gx:coord>
+<gx:coord>261.5 22 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>BENTO:BENTOJANA</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-07-03T18:00Z</when>
+<when>2005-07-04T00:00Z</when>
+<when>2005-07-04T03:30Z</when>
+<when>2005-07-04T06:00Z</when>
+<when>2005-07-04T12:00Z</when>
+<when>2005-07-04T18:00Z</when>
+<when>2005-07-05T00:00Z</when>
+<when>2005-07-05T06:00Z</when>
+<when>2005-07-05T12:00Z</when>
+<when>2005-07-05T18:00Z</when>
+<when>2005-07-06T00:00Z</when>
+<when>2005-07-06T03:00Z</when>
+<when>2005-07-06T06:00Z</when>
+<when>2005-07-06T12:00Z</when>
+<when>2005-07-06T18:00Z</when>
+<when>2005-07-07T00:00Z</when>
+<when>2005-07-07T06:00Z</when>
+<when>2005-07-07T12:00Z</when>
+<when>2005-07-07T18:00Z</when>
+<when>2005-07-08T00:00Z</when>
+<when>2005-07-08T06:00Z</when>
+<when>2005-07-08T12:00Z</when>
+<when>2005-07-08T18:00Z</when>
+<when>2005-07-09T00:00Z</when>
+<when>2005-07-09T06:00Z</when>
+<when>2005-07-09T12:00Z</when>
+<when>2005-07-09T18:00Z</when>
+<when>2005-07-10T00:00Z</when>
+<when>2005-07-10T06:00Z</when>
+<when>2005-07-10T12:00Z</when>
+<when>2005-07-10T18:00Z</when>
+<when>2005-07-11T00:00Z</when>
+<when>2005-07-11T06:00Z</when>
+<gx:coord>273.3 18.3 0</gx:coord>
+<gx:coord>272.8 18.6 0</gx:coord>
+<gx:coord>272.4 19 0</gx:coord>
+<gx:coord>272.1 19.3 0</gx:coord>
+<gx:coord>271.5 20.9 0</gx:coord>
+<gx:coord>271 22.3 0</gx:coord>
+<gx:coord>270.3 23.9 0</gx:coord>
+<gx:coord>269.8 25.1 0</gx:coord>
+<gx:coord>269.6 26.4 0</gx:coord>
+<gx:coord>269.5 27.6 0</gx:coord>
+<gx:coord>269.7 28.5 0</gx:coord>
+<gx:coord>269.9 29.2 0</gx:coord>
+<gx:coord>270 29.6 0</gx:coord>
+<gx:coord>271.1 30.8 0</gx:coord>
+<gx:coord>271.9 31.6 0</gx:coord>
+<gx:coord>272.8 32.4 0</gx:coord>
+<gx:coord>273.8 33.2 0</gx:coord>
+<gx:coord>275.9 34.6 0</gx:coord>
+<gx:coord>278.2 35.6 0</gx:coord>
+<gx:coord>280 37.1 0</gx:coord>
+<gx:coord>281.7 37.8 0</gx:coord>
+<gx:coord>283.3 38.4 0</gx:coord>
+<gx:coord>285.2 39.1 0</gx:coord>
+<gx:coord>288 39.5 0</gx:coord>
+<gx:coord>289.3 40.8 0</gx:coord>
+<gx:coord>290.2 41.6 0</gx:coord>
+<gx:coord>290.4 43.5 0</gx:coord>
+<gx:coord>290.2 44.9 0</gx:coord>
+<gx:coord>290 45.5 0</gx:coord>
+<gx:coord>292.4 46.5 0</gx:coord>
+<gx:coord>293.6 48 0</gx:coord>
+<gx:coord>295.5 48.5 0</gx:coord>
+<gx:coord>297.5 48.5 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>CHAMBO</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-07-04T18:00Z</when>
+<when>2005-07-04T21:00Z</when>
+<when>2005-07-05T00:00Z</when>
+<when>2005-07-05T06:00Z</when>
+<when>2005-07-05T12:00Z</when>
+<when>2005-07-05T18:00Z</when>
+<when>2005-07-06T00:00Z</when>
+<when>2005-07-06T06:00Z</when>
+<when>2005-07-06T12:00Z</when>
+<when>2005-07-06T18:00Z</when>
+<when>2005-07-07T00:00Z</when>
+<when>2005-07-07T06:00Z</when>
+<when>2005-07-07T12:00Z</when>
+<when>2005-07-07T18:00Z</when>
+<when>2005-07-08T00:00Z</when>
+<when>2005-07-08T02:45Z</when>
+<when>2005-07-08T06:00Z</when>
+<when>2005-07-08T12:00Z</when>
+<when>2005-07-08T18:00Z</when>
+<when>2005-07-08T18:45Z</when>
+<when>2005-07-09T00:00Z</when>
+<when>2005-07-09T06:00Z</when>
+<when>2005-07-09T12:00Z</when>
+<when>2005-07-09T18:00Z</when>
+<when>2005-07-10T00:00Z</when>
+<when>2005-07-10T06:00Z</when>
+<when>2005-07-10T12:00Z</when>
+<when>2005-07-10T18:00Z</when>
+<when>2005-07-10T19:30Z</when>
+<when>2005-07-11T00:00Z</when>
+<when>2005-07-11T06:00Z</when>
+<when>2005-07-11T12:00Z</when>
+<when>2005-07-11T18:00Z</when>
+<when>2005-07-12T00:00Z</when>
+<when>2005-07-12T06:00Z</when>
+<when>2005-07-12T12:00Z</when>
+<when>2005-07-12T18:00Z</when>
+<when>2005-07-13T00:00Z</when>
+<when>2005-07-13T06:00Z</when>
+<when>2005-07-13T12:00Z</when>
+<when>2005-07-13T18:00Z</when>
+<when>2005-07-14T00:00Z</when>
+<when>2005-07-14T06:00Z</when>
+<when>2005-07-14T12:00Z</when>
+<when>2005-07-14T18:00Z</when>
+<when>2005-07-15T00:00Z</when>
+<when>2005-07-15T06:00Z</when>
+<when>2005-07-15T12:00Z</when>
+<when>2005-07-15T18:00Z</when>
+<when>2005-07-16T00:00Z</when>
+<when>2005-07-16T06:00Z</when>
+<when>2005-07-16T12:00Z</when>
+<when>2005-07-16T18:00Z</when>
+<when>2005-07-17T00:00Z</when>
+<when>2005-07-17T06:00Z</when>
+<when>2005-07-17T12:00Z</when>
+<when>2005-07-17T18:00Z</when>
+<when>2005-07-18T00:00Z</when>
+<when>2005-07-18T06:00Z</when>
+<gx:coord>299.2 12 0</gx:coord>
+<gx:coord>298.4 12.1 0</gx:coord>
+<gx:coord>297.5 12.2 0</gx:coord>
+<gx:coord>295.8 12.5 0</gx:coord>
+<gx:coord>294.1 13 0</gx:coord>
+<gx:coord>292.7 13.6 0</gx:coord>
+<gx:coord>291.5 14.3 0</gx:coord>
+<gx:coord>290.3 14.7 0</gx:coord>
+<gx:coord>289.1 15.1 0</gx:coord>
+<gx:coord>288.1 15.6 0</gx:coord>
+<gx:coord>287 16.2 0</gx:coord>
+<gx:coord>285.9 16.7 0</gx:coord>
+<gx:coord>285.1 17.6 0</gx:coord>
+<gx:coord>283.9 18.5 0</gx:coord>
+<gx:coord>282.9 19.4 0</gx:coord>
+<gx:coord>282.4 19.9 0</gx:coord>
+<gx:coord>281.6 20.3 0</gx:coord>
+<gx:coord>280.5 20.9 0</gx:coord>
+<gx:coord>279.4 22 0</gx:coord>
+<gx:coord>279.3 22.1 0</gx:coord>
+<gx:coord>278.4 22.7 0</gx:coord>
+<gx:coord>277.5 23.4 0</gx:coord>
+<gx:coord>276.6 24.3 0</gx:coord>
+<gx:coord>275.8 25.2 0</gx:coord>
+<gx:coord>275 26.1 0</gx:coord>
+<gx:coord>274.2 27.2 0</gx:coord>
+<gx:coord>273.7 28.5 0</gx:coord>
+<gx:coord>273.1 29.9 0</gx:coord>
+<gx:coord>272.9 30.4 0</gx:coord>
+<gx:coord>272.3 31.5 0</gx:coord>
+<gx:coord>271.5 32.6 0</gx:coord>
+<gx:coord>271.2 33.9 0</gx:coord>
+<gx:coord>270.9 35.3 0</gx:coord>
+<gx:coord>270.8 36.4 0</gx:coord>
+<gx:coord>271 37.1 0</gx:coord>
+<gx:coord>271.3 37.7 0</gx:coord>
+<gx:coord>271.7 38.1 0</gx:coord>
+<gx:coord>272.2 38.5 0</gx:coord>
+<gx:coord>272.8 38.9 0</gx:coord>
+<gx:coord>273.5 39.2 0</gx:coord>
+<gx:coord>274.2 39.2 0</gx:coord>
+<gx:coord>274.3 39.2 0</gx:coord>
+<gx:coord>274.4 39 0</gx:coord>
+<gx:coord>274.4 38.7 0</gx:coord>
+<gx:coord>274.4 38.4 0</gx:coord>
+<gx:coord>274.2 38.1 0</gx:coord>
+<gx:coord>273.8 37.9 0</gx:coord>
+<gx:coord>273.6 38.1 0</gx:coord>
+<gx:coord>273.4 38.4 0</gx:coord>
+<gx:coord>273.2 38.6 0</gx:coord>
+<gx:coord>273.5 39.4 0</gx:coord>
+<gx:coord>273.8 40.2 0</gx:coord>
+<gx:coord>274.8 40.8 0</gx:coord>
+<gx:coord>275.9 41.3 0</gx:coord>
+<gx:coord>276.8 42.2 0</gx:coord>
+<gx:coord>277.7 43.1 0</gx:coord>
+<gx:coord>278.6 43.9 0</gx:coord>
+<gx:coord>279.5 44.6 0</gx:coord>
+<gx:coord>280.2 45.8 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>JUDY</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-07-11T00:00Z</when>
+<when>2005-07-11T06:00Z</when>
+<when>2005-07-11T12:00Z</when>
+<when>2005-07-11T18:00Z</when>
+<when>2005-07-12T00:00Z</when>
+<when>2005-07-12T06:00Z</when>
+<when>2005-07-12T12:00Z</when>
+<when>2005-07-12T18:00Z</when>
+<when>2005-07-13T00:00Z</when>
+<when>2005-07-13T06:00Z</when>
+<when>2005-07-13T12:00Z</when>
+<when>2005-07-13T18:00Z</when>
+<when>2005-07-14T00:00Z</when>
+<when>2005-07-14T06:00Z</when>
+<when>2005-07-14T07:00Z</when>
+<when>2005-07-14T12:00Z</when>
+<when>2005-07-14T18:00Z</when>
+<when>2005-07-15T00:00Z</when>
+<when>2005-07-15T06:00Z</when>
+<when>2005-07-15T12:00Z</when>
+<when>2005-07-15T18:00Z</when>
+<when>2005-07-16T00:00Z</when>
+<when>2005-07-16T06:00Z</when>
+<when>2005-07-16T12:00Z</when>
+<when>2005-07-16T18:00Z</when>
+<when>2005-07-17T00:00Z</when>
+<when>2005-07-17T06:00Z</when>
+<when>2005-07-17T12:00Z</when>
+<when>2005-07-17T18:00Z</when>
+<when>2005-07-18T00:00Z</when>
+<when>2005-07-18T06:00Z</when>
+<when>2005-07-18T06:30Z</when>
+<when>2005-07-18T12:00Z</when>
+<when>2005-07-18T18:00Z</when>
+<when>2005-07-19T00:00Z</when>
+<when>2005-07-19T06:00Z</when>
+<when>2005-07-19T12:00Z</when>
+<when>2005-07-19T18:00Z</when>
+<when>2005-07-20T00:00Z</when>
+<when>2005-07-20T06:00Z</when>
+<when>2005-07-20T12:00Z</when>
+<when>2005-07-20T18:00Z</when>
+<when>2005-07-21T00:00Z</when>
+<when>2005-07-21T06:00Z</when>
+<when>2005-07-21T12:00Z</when>
+<gx:coord>317.6 10.7 0</gx:coord>
+<gx:coord>316.6 10.8 0</gx:coord>
+<gx:coord>315.6 10.9 0</gx:coord>
+<gx:coord>314.6 11 0</gx:coord>
+<gx:coord>313.2 11 0</gx:coord>
+<gx:coord>311.5 11 0</gx:coord>
+<gx:coord>309.8 11 0</gx:coord>
+<gx:coord>308 11 0</gx:coord>
+<gx:coord>306.3 11 0</gx:coord>
+<gx:coord>304.6 11.1 0</gx:coord>
+<gx:coord>302.8 11.2 0</gx:coord>
+<gx:coord>301.1 11.4 0</gx:coord>
+<gx:coord>299.8 11.6 0</gx:coord>
+<gx:coord>298.5 11.9 0</gx:coord>
+<gx:coord>298.2 12 0</gx:coord>
+<gx:coord>296.8 12.4 0</gx:coord>
+<gx:coord>295.1 12.9 0</gx:coord>
+<gx:coord>293.3 13.3 0</gx:coord>
+<gx:coord>291.6 13.7 0</gx:coord>
+<gx:coord>289.9 14.1 0</gx:coord>
+<gx:coord>288.2 14.5 0</gx:coord>
+<gx:coord>286.6 14.9 0</gx:coord>
+<gx:coord>285 15.4 0</gx:coord>
+<gx:coord>283.5 15.9 0</gx:coord>
+<gx:coord>282 16.4 0</gx:coord>
+<gx:coord>280.5 17.1 0</gx:coord>
+<gx:coord>278.8 17.7 0</gx:coord>
+<gx:coord>277.2 18.3 0</gx:coord>
+<gx:coord>275.7 18.9 0</gx:coord>
+<gx:coord>274.2 19.5 0</gx:coord>
+<gx:coord>272.7 20.3 0</gx:coord>
+<gx:coord>272.6 20.3 0</gx:coord>
+<gx:coord>271.1 21.3 0</gx:coord>
+<gx:coord>269.7 22 0</gx:coord>
+<gx:coord>268.5 22.6 0</gx:coord>
+<gx:coord>267.2 23.2 0</gx:coord>
+<gx:coord>266 23.7 0</gx:coord>
+<gx:coord>264.9 24.1 0</gx:coord>
+<gx:coord>263.9 24.4 0</gx:coord>
+<gx:coord>263.1 24.6 0</gx:coord>
+<gx:coord>262.4 24.8 0</gx:coord>
+<gx:coord>261.3 25 0</gx:coord>
+<gx:coord>260.3 25 0</gx:coord>
+<gx:coord>259.5 25 0</gx:coord>
+<gx:coord>258.9 25 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>RAYMOND</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-07-21T18:00Z</when>
+<when>2005-07-22T00:00Z</when>
+<when>2005-07-22T06:00Z</when>
+<when>2005-07-22T12:00Z</when>
+<when>2005-07-22T18:00Z</when>
+<when>2005-07-23T00:00Z</when>
+<when>2005-07-23T06:00Z</when>
+<when>2005-07-23T12:00Z</when>
+<when>2005-07-23T18:00Z</when>
+<when>2005-07-24T00:00Z</when>
+<when>2005-07-24T06:00Z</when>
+<when>2005-07-24T12:00Z</when>
+<when>2005-07-24T18:00Z</when>
+<when>2005-07-25T00:00Z</when>
+<when>2005-07-25T06:00Z</when>
+<when>2005-07-25T12:00Z</when>
+<when>2005-07-25T18:00Z</when>
+<when>2005-07-26T00:00Z</when>
+<when>2005-07-26T06:00Z</when>
+<when>2005-07-26T12:00Z</when>
+<when>2005-07-26T18:00Z</when>
+<when>2005-07-27T00:00Z</when>
+<when>2005-07-27T06:00Z</when>
+<when>2005-07-27T12:00Z</when>
+<when>2005-07-27T18:00Z</when>
+<when>2005-07-28T00:00Z</when>
+<when>2005-07-28T06:00Z</when>
+<when>2005-07-28T12:00Z</when>
+<when>2005-07-28T18:00Z</when>
+<when>2005-07-29T00:00Z</when>
+<when>2005-07-29T06:00Z</when>
+<when>2005-07-29T12:00Z</when>
+<when>2005-07-29T18:00Z</when>
+<when>2005-07-30T00:00Z</when>
+<when>2005-07-30T06:00Z</when>
+<when>2005-07-30T12:00Z</when>
+<when>2005-07-30T18:00Z</when>
+<when>2005-07-31T00:00Z</when>
+<gx:coord>285 25 0</gx:coord>
+<gx:coord>284.1 25.7 0</gx:coord>
+<gx:coord>283.6 26.2 0</gx:coord>
+<gx:coord>283.2 26.6 0</gx:coord>
+<gx:coord>283.3 27.4 0</gx:coord>
+<gx:coord>283.4 28.1 0</gx:coord>
+<gx:coord>283.9 28.7 0</gx:coord>
+<gx:coord>284.6 29.2 0</gx:coord>
+<gx:coord>285.3 29.7 0</gx:coord>
+<gx:coord>286.5 30.1 0</gx:coord>
+<gx:coord>287.4 30.3 0</gx:coord>
+<gx:coord>288.1 30.7 0</gx:coord>
+<gx:coord>288.8 31.1 0</gx:coord>
+<gx:coord>288.8 31.1 0</gx:coord>
+<gx:coord>289.5 31 0</gx:coord>
+<gx:coord>290.2 30.9 0</gx:coord>
+<gx:coord>290.4 30.9 0</gx:coord>
+<gx:coord>291.4 30.9 0</gx:coord>
+<gx:coord>291.8 31.2 0</gx:coord>
+<gx:coord>291.9 31.7 0</gx:coord>
+<gx:coord>291.7 32.2 0</gx:coord>
+<gx:coord>291.5 32.4 0</gx:coord>
+<gx:coord>291.2 32.8 0</gx:coord>
+<gx:coord>290.9 33.2 0</gx:coord>
+<gx:coord>290.7 33.6 0</gx:coord>
+<gx:coord>290.6 34.2 0</gx:coord>
+<gx:coord>290.7 35 0</gx:coord>
+<gx:coord>290.9 36 0</gx:coord>
+<gx:coord>292 37.1 0</gx:coord>
+<gx:coord>293.4 38.4 0</gx:coord>
+<gx:coord>295.2 39.6 0</gx:coord>
+<gx:coord>297.2 40.8 0</gx:coord>
+<gx:coord>299.8 42.2 0</gx:coord>
+<gx:coord>302.5 43.5 0</gx:coord>
+<gx:coord>305.4 44.7 0</gx:coord>
+<gx:coord>308.3 45.8 0</gx:coord>
+<gx:coord>311.2 46.4 0</gx:coord>
+<gx:coord>314 47.5 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>KERRY</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-07-23T18:00Z</when>
+<when>2005-07-24T00:00Z</when>
+<when>2005-07-24T06:00Z</when>
+<when>2005-07-24T12:00Z</when>
+<when>2005-07-24T18:00Z</when>
+<when>2005-07-25T00:00Z</when>
+<when>2005-07-25T06:00Z</when>
+<when>2005-07-25T12:00Z</when>
+<when>2005-07-25T18:00Z</when>
+<gx:coord>267.1 19.3 0</gx:coord>
+<gx:coord>266.2 19.8 0</gx:coord>
+<gx:coord>265 20.8 0</gx:coord>
+<gx:coord>264.2 21 0</gx:coord>
+<gx:coord>263.4 21.4 0</gx:coord>
+<gx:coord>262.4 21.8 0</gx:coord>
+<gx:coord>261.4 22.3 0</gx:coord>
+<gx:coord>260 22.5 0</gx:coord>
+<gx:coord>258.6 22.5 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>SALLY</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-08-02T18:00Z</when>
+<when>2005-08-03T00:00Z</when>
+<when>2005-08-03T06:00Z</when>
+<when>2005-08-03T12:00Z</when>
+<when>2005-08-03T18:00Z</when>
+<when>2005-08-04T00:00Z</when>
+<when>2005-08-04T06:00Z</when>
+<when>2005-08-04T12:00Z</when>
+<when>2005-08-04T18:00Z</when>
+<when>2005-08-05T00:00Z</when>
+<when>2005-08-05T06:00Z</when>
+<when>2005-08-05T12:00Z</when>
+<when>2005-08-05T18:00Z</when>
+<when>2005-08-06T00:00Z</when>
+<when>2005-08-06T06:00Z</when>
+<when>2005-08-06T12:00Z</when>
+<when>2005-08-06T18:00Z</when>
+<when>2005-08-07T00:00Z</when>
+<when>2005-08-07T06:00Z</when>
+<when>2005-08-07T12:00Z</when>
+<when>2005-08-07T18:00Z</when>
+<when>2005-08-08T00:00Z</when>
+<when>2005-08-08T06:00Z</when>
+<when>2005-08-08T12:00Z</when>
+<when>2005-08-08T18:00Z</when>
+<when>2005-08-09T00:00Z</when>
+<when>2005-08-09T06:00Z</when>
+<when>2005-08-09T12:00Z</when>
+<when>2005-08-09T18:00Z</when>
+<when>2005-08-10T00:00Z</when>
+<when>2005-08-10T06:00Z</when>
+<when>2005-08-10T12:00Z</when>
+<when>2005-08-10T18:00Z</when>
+<when>2005-08-11T00:00Z</when>
+<when>2005-08-11T06:00Z</when>
+<when>2005-08-11T12:00Z</when>
+<when>2005-08-11T18:00Z</when>
+<when>2005-08-12T00:00Z</when>
+<when>2005-08-12T06:00Z</when>
+<when>2005-08-12T12:00Z</when>
+<when>2005-08-12T18:00Z</when>
+<when>2005-08-13T00:00Z</when>
+<when>2005-08-13T06:00Z</when>
+<when>2005-08-13T12:00Z</when>
+<when>2005-08-13T18:00Z</when>
+<when>2005-08-14T00:00Z</when>
+<gx:coord>291.2 28.2 0</gx:coord>
+<gx:coord>291.3 28.9 0</gx:coord>
+<gx:coord>291.4 29.5 0</gx:coord>
+<gx:coord>291.7 30.3 0</gx:coord>
+<gx:coord>292.3 30.9 0</gx:coord>
+<gx:coord>293.6 31.3 0</gx:coord>
+<gx:coord>295 31.6 0</gx:coord>
+<gx:coord>296.4 31.9 0</gx:coord>
+<gx:coord>297.9 32 0</gx:coord>
+<gx:coord>299.5 32.1 0</gx:coord>
+<gx:coord>300.6 32.4 0</gx:coord>
+<gx:coord>301.5 32.5 0</gx:coord>
+<gx:coord>302.3 32.5 0</gx:coord>
+<gx:coord>302.9 32.6 0</gx:coord>
+<gx:coord>303.2 33 0</gx:coord>
+<gx:coord>303.3 33.5 0</gx:coord>
+<gx:coord>303.3 33.5 0</gx:coord>
+<gx:coord>304.5 34.1 0</gx:coord>
+<gx:coord>305.1 35.1 0</gx:coord>
+<gx:coord>306 36 0</gx:coord>
+<gx:coord>307.1 36.8 0</gx:coord>
+<gx:coord>308.1 37.6 0</gx:coord>
+<gx:coord>309.3 38.6 0</gx:coord>
+<gx:coord>311.4 39.6 0</gx:coord>
+<gx:coord>313.1 40.4 0</gx:coord>
+<gx:coord>315 41.2 0</gx:coord>
+<gx:coord>317 41.8 0</gx:coord>
+<gx:coord>318.9 42.3 0</gx:coord>
+<gx:coord>321 43 0</gx:coord>
+<gx:coord>322.9 44 0</gx:coord>
+<gx:coord>324.8 44.5 0</gx:coord>
+<gx:coord>325.9 44.5 0</gx:coord>
+<gx:coord>326.9 44.4 0</gx:coord>
+<gx:coord>327.8 44.2 0</gx:coord>
+<gx:coord>328.5 43.9 0</gx:coord>
+<gx:coord>329 43.5 0</gx:coord>
+<gx:coord>329.3 43.3 0</gx:coord>
+<gx:coord>329.5 43 0</gx:coord>
+<gx:coord>329.2 42.5 0</gx:coord>
+<gx:coord>328.6 42 0</gx:coord>
+<gx:coord>328.5 41.3 0</gx:coord>
+<gx:coord>328.5 40.7 0</gx:coord>
+<gx:coord>328.5 40.5 0</gx:coord>
+<gx:coord>328.5 40.5 0</gx:coord>
+<gx:coord>328 41.2 0</gx:coord>
+<gx:coord>327.5 42 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>NOT NAMED</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-08-04T18:00Z</when>
+<when>2005-08-05T00:00Z</when>
+<when>2005-08-05T06:00Z</when>
+<when>2005-08-05T12:00Z</when>
+<when>2005-08-05T18:00Z</when>
+<when>2005-08-06T00:00Z</when>
+<when>2005-08-06T06:00Z</when>
+<when>2005-08-06T12:00Z</when>
+<when>2005-08-06T18:00Z</when>
+<when>2005-08-07T00:00Z</when>
+<when>2005-08-07T06:00Z</when>
+<when>2005-08-07T12:00Z</when>
+<when>2005-08-07T18:00Z</when>
+<when>2005-08-08T00:00Z</when>
+<when>2005-08-08T06:00Z</when>
+<when>2005-08-08T12:00Z</when>
+<when>2005-08-08T18:00Z</when>
+<when>2005-08-09T00:00Z</when>
+<when>2005-08-09T06:00Z</when>
+<when>2005-08-09T12:00Z</when>
+<when>2005-08-09T18:00Z</when>
+<when>2005-08-10T00:00Z</when>
+<when>2005-08-10T06:00Z</when>
+<when>2005-08-10T12:00Z</when>
+<when>2005-08-10T18:00Z</when>
+<when>2005-08-11T00:00Z</when>
+<when>2005-08-11T06:00Z</when>
+<when>2005-08-11T12:00Z</when>
+<when>2005-08-11T18:00Z</when>
+<when>2005-08-12T00:00Z</when>
+<when>2005-08-12T06:00Z</when>
+<when>2005-08-12T12:00Z</when>
+<when>2005-08-12T18:00Z</when>
+<when>2005-08-13T00:00Z</when>
+<when>2005-08-13T06:00Z</when>
+<when>2005-08-13T12:00Z</when>
+<when>2005-08-13T18:00Z</when>
+<when>2005-08-14T00:00Z</when>
+<when>2005-08-14T06:00Z</when>
+<when>2005-08-14T12:00Z</when>
+<when>2005-08-14T18:00Z</when>
+<when>2005-08-15T00:00Z</when>
+<when>2005-08-15T06:00Z</when>
+<when>2005-08-15T12:00Z</when>
+<when>2005-08-15T18:00Z</when>
+<when>2005-08-16T00:00Z</when>
+<when>2005-08-16T06:00Z</when>
+<when>2005-08-16T12:00Z</when>
+<when>2005-08-16T18:00Z</when>
+<when>2005-08-17T00:00Z</when>
+<when>2005-08-17T06:00Z</when>
+<when>2005-08-17T12:00Z</when>
+<when>2005-08-17T18:00Z</when>
+<when>2005-08-18T00:00Z</when>
+<when>2005-08-18T06:00Z</when>
+<when>2005-08-18T12:00Z</when>
+<gx:coord>326.5 12.9 0</gx:coord>
+<gx:coord>325.5 13.6 0</gx:coord>
+<gx:coord>324.5 14.6 0</gx:coord>
+<gx:coord>323.2 15.6 0</gx:coord>
+<gx:coord>321.6 16.6 0</gx:coord>
+<gx:coord>320.2 17.2 0</gx:coord>
+<gx:coord>319.5 17.7 0</gx:coord>
+<gx:coord>318.4 18.2 0</gx:coord>
+<gx:coord>317.2 18.8 0</gx:coord>
+<gx:coord>316.5 19.3 0</gx:coord>
+<gx:coord>315.8 19.7 0</gx:coord>
+<gx:coord>315 20.2 0</gx:coord>
+<gx:coord>314 20.8 0</gx:coord>
+<gx:coord>312.8 21.3 0</gx:coord>
+<gx:coord>311.7 21.8 0</gx:coord>
+<gx:coord>310.1 22.2 0</gx:coord>
+<gx:coord>309.1 22.4 0</gx:coord>
+<gx:coord>308 22.5 0</gx:coord>
+<gx:coord>307.1 22.4 0</gx:coord>
+<gx:coord>306.3 22.4 0</gx:coord>
+<gx:coord>305.2 22.4 0</gx:coord>
+<gx:coord>304.3 22.4 0</gx:coord>
+<gx:coord>303.5 22.3 0</gx:coord>
+<gx:coord>302.8 22.4 0</gx:coord>
+<gx:coord>301.9 22.8 0</gx:coord>
+<gx:coord>300.7 23.3 0</gx:coord>
+<gx:coord>299.6 23.9 0</gx:coord>
+<gx:coord>298.3 24.7 0</gx:coord>
+<gx:coord>297.1 25.4 0</gx:coord>
+<gx:coord>296.2 26.3 0</gx:coord>
+<gx:coord>294.9 27.2 0</gx:coord>
+<gx:coord>293.7 27.9 0</gx:coord>
+<gx:coord>292.9 28.4 0</gx:coord>
+<gx:coord>292.3 28.9 0</gx:coord>
+<gx:coord>291.8 29.6 0</gx:coord>
+<gx:coord>291 30 0</gx:coord>
+<gx:coord>290.6 30.8 0</gx:coord>
+<gx:coord>290.1 31.6 0</gx:coord>
+<gx:coord>289.8 32.1 0</gx:coord>
+<gx:coord>289.9 33.1 0</gx:coord>
+<gx:coord>290 34 0</gx:coord>
+<gx:coord>290.5 34.9 0</gx:coord>
+<gx:coord>291.3 35.7 0</gx:coord>
+<gx:coord>292.3 36.3 0</gx:coord>
+<gx:coord>293.5 36.5 0</gx:coord>
+<gx:coord>294.9 36.6 0</gx:coord>
+<gx:coord>296 36.6 0</gx:coord>
+<gx:coord>297 36.6 0</gx:coord>
+<gx:coord>298 36.5 0</gx:coord>
+<gx:coord>298.7 36.5 0</gx:coord>
+<gx:coord>299.4 36.5 0</gx:coord>
+<gx:coord>300.9 36.9 0</gx:coord>
+<gx:coord>302.7 37.6 0</gx:coord>
+<gx:coord>305 38.6 0</gx:coord>
+<gx:coord>307.7 40.3 0</gx:coord>
+<gx:coord>311.1 43.3 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>KULAB:KULAP</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-08-13T12:00Z</when>
+<when>2005-08-13T18:00Z</when>
+<when>2005-08-14T00:00Z</when>
+<when>2005-08-14T06:00Z</when>
+<when>2005-08-14T12:00Z</when>
+<when>2005-08-14T18:00Z</when>
+<when>2005-08-15T00:00Z</when>
+<when>2005-08-15T06:00Z</when>
+<when>2005-08-15T12:00Z</when>
+<when>2005-08-15T18:00Z</when>
+<when>2005-08-16T00:00Z</when>
+<when>2005-08-16T06:00Z</when>
+<when>2005-08-16T12:00Z</when>
+<when>2005-08-16T18:00Z</when>
+<when>2005-08-17T00:00Z</when>
+<when>2005-08-17T06:00Z</when>
+<when>2005-08-17T12:00Z</when>
+<when>2005-08-17T18:00Z</when>
+<when>2005-08-18T00:00Z</when>
+<when>2005-08-18T06:00Z</when>
+<when>2005-08-18T12:00Z</when>
+<gx:coord>316.4 13.3 0</gx:coord>
+<gx:coord>315.3 13.8 0</gx:coord>
+<gx:coord>314.3 13.8 0</gx:coord>
+<gx:coord>314 13.4 0</gx:coord>
+<gx:coord>313.6 13.5 0</gx:coord>
+<gx:coord>313.3 13.9 0</gx:coord>
+<gx:coord>312.6 14.4 0</gx:coord>
+<gx:coord>311.6 14.5 0</gx:coord>
+<gx:coord>310.7 14.6 0</gx:coord>
+<gx:coord>310.1 14.8 0</gx:coord>
+<gx:coord>309.6 15.1 0</gx:coord>
+<gx:coord>308.9 15.5 0</gx:coord>
+<gx:coord>308 16 0</gx:coord>
+<gx:coord>306.8 16.1 0</gx:coord>
+<gx:coord>305.9 16.1 0</gx:coord>
+<gx:coord>305.1 16.1 0</gx:coord>
+<gx:coord>304.4 16.7 0</gx:coord>
+<gx:coord>303.4 17.1 0</gx:coord>
+<gx:coord>302.3 17.3 0</gx:coord>
+<gx:coord>301.1 17.6 0</gx:coord>
+<gx:coord>299.9 18 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>DAREN</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-08-22T12:00Z</when>
+<when>2005-08-22T18:00Z</when>
+<when>2005-08-23T00:00Z</when>
+<when>2005-08-23T03:30Z</when>
+<when>2005-08-23T06:00Z</when>
+<when>2005-08-23T12:00Z</when>
+<gx:coord>265.5 19.4 0</gx:coord>
+<gx:coord>265 19.6 0</gx:coord>
+<gx:coord>264.3 19.7 0</gx:coord>
+<gx:coord>263.6 19.7 0</gx:coord>
+<gx:coord>263.3 19.7 0</gx:coord>
+<gx:coord>262.3 19.7 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>ERNEST</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-08-23T18:00Z</when>
+<when>2005-08-24T00:00Z</when>
+<when>2005-08-24T06:00Z</when>
+<when>2005-08-24T12:00Z</when>
+<when>2005-08-24T18:00Z</when>
+<when>2005-08-25T00:00Z</when>
+<when>2005-08-25T06:00Z</when>
+<when>2005-08-25T12:00Z</when>
+<when>2005-08-25T18:00Z</when>
+<when>2005-08-25T22:30Z</when>
+<when>2005-08-26T00:00Z</when>
+<when>2005-08-26T06:00Z</when>
+<when>2005-08-26T12:00Z</when>
+<when>2005-08-26T18:00Z</when>
+<when>2005-08-27T00:00Z</when>
+<when>2005-08-27T06:00Z</when>
+<when>2005-08-27T12:00Z</when>
+<when>2005-08-27T18:00Z</when>
+<when>2005-08-28T00:00Z</when>
+<when>2005-08-28T06:00Z</when>
+<when>2005-08-28T12:00Z</when>
+<when>2005-08-28T18:00Z</when>
+<when>2005-08-29T00:00Z</when>
+<when>2005-08-29T06:00Z</when>
+<when>2005-08-29T11:10Z</when>
+<when>2005-08-29T12:00Z</when>
+<when>2005-08-29T14:45Z</when>
+<when>2005-08-29T18:00Z</when>
+<when>2005-08-30T00:00Z</when>
+<when>2005-08-30T06:00Z</when>
+<when>2005-08-30T12:00Z</when>
+<when>2005-08-30T18:00Z</when>
+<when>2005-08-31T00:00Z</when>
+<when>2005-08-31T06:00Z</when>
+<gx:coord>284.9 23.1 0</gx:coord>
+<gx:coord>284.3 23.4 0</gx:coord>
+<gx:coord>283.8 23.8 0</gx:coord>
+<gx:coord>283.5 24.5 0</gx:coord>
+<gx:coord>283.1 25.4 0</gx:coord>
+<gx:coord>282.3 26 0</gx:coord>
+<gx:coord>281.6 26.1 0</gx:coord>
+<gx:coord>281 26.2 0</gx:coord>
+<gx:coord>280.4 26.2 0</gx:coord>
+<gx:coord>279.9 26 0</gx:coord>
+<gx:coord>279.7 25.9 0</gx:coord>
+<gx:coord>278.7 25.4 0</gx:coord>
+<gx:coord>278 25.1 0</gx:coord>
+<gx:coord>277.4 24.9 0</gx:coord>
+<gx:coord>276.7 24.6 0</gx:coord>
+<gx:coord>276 24.4 0</gx:coord>
+<gx:coord>275.3 24.4 0</gx:coord>
+<gx:coord>274.7 24.5 0</gx:coord>
+<gx:coord>274.1 24.8 0</gx:coord>
+<gx:coord>273.3 25.2 0</gx:coord>
+<gx:coord>272.3 25.7 0</gx:coord>
+<gx:coord>271.4 26.3 0</gx:coord>
+<gx:coord>270.8 27.2 0</gx:coord>
+<gx:coord>270.4 28.2 0</gx:coord>
+<gx:coord>270.4 29.3 0</gx:coord>
+<gx:coord>270.4 29.5 0</gx:coord>
+<gx:coord>270.4 30.2 0</gx:coord>
+<gx:coord>270.4 31.1 0</gx:coord>
+<gx:coord>270.9 32.6 0</gx:coord>
+<gx:coord>271.4 34.1 0</gx:coord>
+<gx:coord>272 35.6 0</gx:coord>
+<gx:coord>273 37 0</gx:coord>
+<gx:coord>274.7 38.6 0</gx:coord>
+<gx:coord>277.1 40.1 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>TIM</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-08-28T12:00Z</when>
+<when>2005-08-28T18:00Z</when>
+<when>2005-08-29T00:00Z</when>
+<when>2005-08-29T06:00Z</when>
+<when>2005-08-29T12:00Z</when>
+<when>2005-08-29T18:00Z</when>
+<when>2005-08-30T00:00Z</when>
+<when>2005-08-30T06:00Z</when>
+<when>2005-08-30T12:00Z</when>
+<when>2005-08-30T18:00Z</when>
+<when>2005-08-31T00:00Z</when>
+<when>2005-08-31T06:00Z</when>
+<when>2005-08-31T12:00Z</when>
+<when>2005-08-31T18:00Z</when>
+<when>2005-09-01T00:00Z</when>
+<when>2005-09-01T06:00Z</when>
+<when>2005-09-01T12:00Z</when>
+<when>2005-09-01T18:00Z</when>
+<when>2005-09-02T00:00Z</when>
+<when>2005-09-02T06:00Z</when>
+<when>2005-09-02T12:00Z</when>
+<when>2005-09-02T18:00Z</when>
+<when>2005-09-03T00:00Z</when>
+<when>2005-09-03T06:00Z</when>
+<when>2005-09-03T12:00Z</when>
+<when>2005-09-03T18:00Z</when>
+<gx:coord>314.9 14 0</gx:coord>
+<gx:coord>313.6 14.9 0</gx:coord>
+<gx:coord>312.4 15.7 0</gx:coord>
+<gx:coord>311.1 17 0</gx:coord>
+<gx:coord>309.4 17.7 0</gx:coord>
+<gx:coord>307.5 18.5 0</gx:coord>
+<gx:coord>306.8 20.5 0</gx:coord>
+<gx:coord>306.4 22.1 0</gx:coord>
+<gx:coord>305.8 24.2 0</gx:coord>
+<gx:coord>306.4 25.5 0</gx:coord>
+<gx:coord>307.3 26.9 0</gx:coord>
+<gx:coord>308.4 28 0</gx:coord>
+<gx:coord>309.6 29 0</gx:coord>
+<gx:coord>309.9 30.1 0</gx:coord>
+<gx:coord>309.7 31.1 0</gx:coord>
+<gx:coord>308.8 31.9 0</gx:coord>
+<gx:coord>308.6 31.9 0</gx:coord>
+<gx:coord>308.5 32.3 0</gx:coord>
+<gx:coord>308 32.4 0</gx:coord>
+<gx:coord>307.7 32.6 0</gx:coord>
+<gx:coord>307.7 33.2 0</gx:coord>
+<gx:coord>307.3 33.9 0</gx:coord>
+<gx:coord>306.8 34.7 0</gx:coord>
+<gx:coord>306.1 35.5 0</gx:coord>
+<gx:coord>305.8 36.6 0</gx:coord>
+<gx:coord>306.1 37.4 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>FELAPI</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-09-01T12:00Z</when>
+<when>2005-09-01T18:00Z</when>
+<when>2005-09-02T00:00Z</when>
+<when>2005-09-02T06:00Z</when>
+<when>2005-09-02T12:00Z</when>
+<when>2005-09-02T18:00Z</when>
+<when>2005-09-03T00:00Z</when>
+<when>2005-09-03T06:00Z</when>
+<when>2005-09-03T12:00Z</when>
+<when>2005-09-03T18:00Z</when>
+<when>2005-09-04T00:00Z</when>
+<when>2005-09-04T06:00Z</when>
+<when>2005-09-04T12:00Z</when>
+<when>2005-09-04T18:00Z</when>
+<when>2005-09-05T00:00Z</when>
+<when>2005-09-05T06:00Z</when>
+<when>2005-09-05T12:00Z</when>
+<when>2005-09-05T18:00Z</when>
+<when>2005-09-06T00:00Z</when>
+<when>2005-09-06T06:00Z</when>
+<when>2005-09-06T12:00Z</when>
+<when>2005-09-06T18:00Z</when>
+<when>2005-09-07T00:00Z</when>
+<when>2005-09-07T06:00Z</when>
+<when>2005-09-07T12:00Z</when>
+<when>2005-09-07T18:00Z</when>
+<when>2005-09-08T00:00Z</when>
+<when>2005-09-08T06:00Z</when>
+<when>2005-09-08T12:00Z</when>
+<when>2005-09-08T18:00Z</when>
+<when>2005-09-09T00:00Z</when>
+<when>2005-09-09T06:00Z</when>
+<when>2005-09-09T12:00Z</when>
+<when>2005-09-09T18:00Z</when>
+<when>2005-09-10T00:00Z</when>
+<when>2005-09-10T06:00Z</when>
+<when>2005-09-10T12:00Z</when>
+<when>2005-09-10T18:00Z</when>
+<when>2005-09-11T00:00Z</when>
+<when>2005-09-11T06:00Z</when>
+<when>2005-09-11T12:00Z</when>
+<when>2005-09-11T18:00Z</when>
+<when>2005-09-12T00:00Z</when>
+<when>2005-09-12T06:00Z</when>
+<when>2005-09-12T12:00Z</when>
+<when>2005-09-12T18:00Z</when>
+<when>2005-09-13T00:00Z</when>
+<when>2005-09-13T06:00Z</when>
+<when>2005-09-13T12:00Z</when>
+<when>2005-09-13T18:00Z</when>
+<when>2005-09-14T00:00Z</when>
+<gx:coord>314.5 18.8 0</gx:coord>
+<gx:coord>313.8 19.3 0</gx:coord>
+<gx:coord>312.8 19.9 0</gx:coord>
+<gx:coord>311.7 20.5 0</gx:coord>
+<gx:coord>310.6 21.1 0</gx:coord>
+<gx:coord>309.8 21.5 0</gx:coord>
+<gx:coord>309 22 0</gx:coord>
+<gx:coord>308 23 0</gx:coord>
+<gx:coord>306.9 24.4 0</gx:coord>
+<gx:coord>306 25.5 0</gx:coord>
+<gx:coord>305.4 26.5 0</gx:coord>
+<gx:coord>304.9 27.5 0</gx:coord>
+<gx:coord>304.5 28.6 0</gx:coord>
+<gx:coord>304 29.6 0</gx:coord>
+<gx:coord>303.5 30.2 0</gx:coord>
+<gx:coord>303.2 30.9 0</gx:coord>
+<gx:coord>303.2 31.5 0</gx:coord>
+<gx:coord>303.3 32.1 0</gx:coord>
+<gx:coord>303.4 32.6 0</gx:coord>
+<gx:coord>303.5 33 0</gx:coord>
+<gx:coord>304 33.5 0</gx:coord>
+<gx:coord>304.6 33.9 0</gx:coord>
+<gx:coord>305.4 34.4 0</gx:coord>
+<gx:coord>306.7 34.8 0</gx:coord>
+<gx:coord>308.2 35.6 0</gx:coord>
+<gx:coord>309.2 36.5 0</gx:coord>
+<gx:coord>310.1 37.2 0</gx:coord>
+<gx:coord>311 37.9 0</gx:coord>
+<gx:coord>312 38.7 0</gx:coord>
+<gx:coord>312.8 39.1 0</gx:coord>
+<gx:coord>313.6 39.4 0</gx:coord>
+<gx:coord>315.1 39.8 0</gx:coord>
+<gx:coord>316.6 40.4 0</gx:coord>
+<gx:coord>317.9 41.1 0</gx:coord>
+<gx:coord>319.4 41.9 0</gx:coord>
+<gx:coord>320.8 42.9 0</gx:coord>
+<gx:coord>322.3 44.5 0</gx:coord>
+<gx:coord>323.7 46 0</gx:coord>
+<gx:coord>325 48 0</gx:coord>
+<gx:coord>326 50 0</gx:coord>
+<gx:coord>327.1 52 0</gx:coord>
+<gx:coord>328 54 0</gx:coord>
+<gx:coord>329 55.5 0</gx:coord>
+<gx:coord>331 57 0</gx:coord>
+<gx:coord>334 58.5 0</gx:coord>
+<gx:coord>337 61 0</gx:coord>
+<gx:coord>339 62 0</gx:coord>
+<gx:coord>341 62.9 0</gx:coord>
+<gx:coord>344 63.5 0</gx:coord>
+<gx:coord>350 63 0</gx:coord>
+<gx:coord>0 63 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>LOLA</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-09-06T06:00Z</when>
+<when>2005-09-06T12:00Z</when>
+<when>2005-09-06T16:00Z</when>
+<when>2005-09-06T18:00Z</when>
+<when>2005-09-07T00:00Z</when>
+<when>2005-09-07T06:00Z</when>
+<when>2005-09-07T12:00Z</when>
+<when>2005-09-07T18:00Z</when>
+<when>2005-09-08T00:00Z</when>
+<when>2005-09-08T06:00Z</when>
+<when>2005-09-08T12:00Z</when>
+<when>2005-09-08T18:00Z</when>
+<when>2005-09-09T00:00Z</when>
+<when>2005-09-09T06:00Z</when>
+<when>2005-09-09T12:00Z</when>
+<when>2005-09-09T18:00Z</when>
+<when>2005-09-10T00:00Z</when>
+<when>2005-09-10T06:00Z</when>
+<when>2005-09-10T12:00Z</when>
+<when>2005-09-10T18:00Z</when>
+<when>2005-09-11T00:00Z</when>
+<when>2005-09-11T06:00Z</when>
+<when>2005-09-11T12:00Z</when>
+<when>2005-09-11T18:00Z</when>
+<when>2005-09-12T00:00Z</when>
+<when>2005-09-12T06:00Z</when>
+<when>2005-09-12T12:00Z</when>
+<when>2005-09-12T18:00Z</when>
+<when>2005-09-13T00:00Z</when>
+<when>2005-09-13T06:00Z</when>
+<when>2005-09-13T12:00Z</when>
+<when>2005-09-13T18:00Z</when>
+<when>2005-09-14T00:00Z</when>
+<when>2005-09-14T06:00Z</when>
+<when>2005-09-14T12:00Z</when>
+<when>2005-09-14T18:00Z</when>
+<when>2005-09-15T00:00Z</when>
+<when>2005-09-15T06:00Z</when>
+<when>2005-09-15T12:00Z</when>
+<when>2005-09-15T18:00Z</when>
+<when>2005-09-16T00:00Z</when>
+<when>2005-09-16T06:00Z</when>
+<when>2005-09-16T12:00Z</when>
+<when>2005-09-16T18:00Z</when>
+<when>2005-09-17T00:00Z</when>
+<when>2005-09-17T06:00Z</when>
+<when>2005-09-17T12:00Z</when>
+<when>2005-09-17T18:00Z</when>
+<when>2005-09-18T00:00Z</when>
+<when>2005-09-18T06:00Z</when>
+<when>2005-09-18T12:00Z</when>
+<when>2005-09-18T18:00Z</when>
+<when>2005-09-19T00:00Z</when>
+<when>2005-09-19T06:00Z</when>
+<when>2005-09-19T12:00Z</when>
+<when>2005-09-19T18:00Z</when>
+<when>2005-09-20T00:00Z</when>
+<when>2005-09-20T06:00Z</when>
+<when>2005-09-20T12:00Z</when>
+<when>2005-09-20T18:00Z</when>
+<when>2005-09-21T00:00Z</when>
+<when>2005-09-21T06:00Z</when>
+<when>2005-09-21T12:00Z</when>
+<when>2005-09-21T18:00Z</when>
+<when>2005-09-22T00:00Z</when>
+<when>2005-09-22T06:00Z</when>
+<when>2005-09-22T12:00Z</when>
+<when>2005-09-22T18:00Z</when>
+<when>2005-09-23T00:00Z</when>
+<gx:coord>281.4 25.8 0</gx:coord>
+<gx:coord>281.7 26.3 0</gx:coord>
+<gx:coord>281.7 26.6 0</gx:coord>
+<gx:coord>281.7 26.8 0</gx:coord>
+<gx:coord>281.5 27.4 0</gx:coord>
+<gx:coord>281.2 27.9 0</gx:coord>
+<gx:coord>280.8 28.7 0</gx:coord>
+<gx:coord>280.7 28.8 0</gx:coord>
+<gx:coord>280.7 28.8 0</gx:coord>
+<gx:coord>280.4 28.7 0</gx:coord>
+<gx:coord>280.4 28.6 0</gx:coord>
+<gx:coord>280.5 28.6 0</gx:coord>
+<gx:coord>280.7 28.6 0</gx:coord>
+<gx:coord>280.7 28.9 0</gx:coord>
+<gx:coord>280.9 29.3 0</gx:coord>
+<gx:coord>281.5 29.8 0</gx:coord>
+<gx:coord>282.5 30.2 0</gx:coord>
+<gx:coord>283.1 30.9 0</gx:coord>
+<gx:coord>283.4 31.5 0</gx:coord>
+<gx:coord>283.8 31.7 0</gx:coord>
+<gx:coord>284.1 31.8 0</gx:coord>
+<gx:coord>284.1 31.7 0</gx:coord>
+<gx:coord>284.3 31.6 0</gx:coord>
+<gx:coord>284.1 31.4 0</gx:coord>
+<gx:coord>283.8 31.2 0</gx:coord>
+<gx:coord>283.4 31.2 0</gx:coord>
+<gx:coord>283.1 31.5 0</gx:coord>
+<gx:coord>282.7 31.7 0</gx:coord>
+<gx:coord>282.3 31.8 0</gx:coord>
+<gx:coord>282.1 31.9 0</gx:coord>
+<gx:coord>282 32.1 0</gx:coord>
+<gx:coord>281.9 32.3 0</gx:coord>
+<gx:coord>281.9 32.6 0</gx:coord>
+<gx:coord>282 32.9 0</gx:coord>
+<gx:coord>282.3 33.4 0</gx:coord>
+<gx:coord>282.5 33.9 0</gx:coord>
+<gx:coord>283.1 34.2 0</gx:coord>
+<gx:coord>283.7 34.5 0</gx:coord>
+<gx:coord>284.2 34.7 0</gx:coord>
+<gx:coord>284.4 34.7 0</gx:coord>
+<gx:coord>284.9 34.6 0</gx:coord>
+<gx:coord>285.2 34.7 0</gx:coord>
+<gx:coord>285.6 35.4 0</gx:coord>
+<gx:coord>286.4 36.4 0</gx:coord>
+<gx:coord>287.3 37.3 0</gx:coord>
+<gx:coord>288.6 38.7 0</gx:coord>
+<gx:coord>290.3 40 0</gx:coord>
+<gx:coord>292.7 41.6 0</gx:coord>
+<gx:coord>295.1 43.2 0</gx:coord>
+<gx:coord>297.4 44.8 0</gx:coord>
+<gx:coord>300.1 46.2 0</gx:coord>
+<gx:coord>303.8 47.4 0</gx:coord>
+<gx:coord>307.7 48.4 0</gx:coord>
+<gx:coord>311.2 49 0</gx:coord>
+<gx:coord>314.3 49.5 0</gx:coord>
+<gx:coord>317.9 50 0</gx:coord>
+<gx:coord>321.5 50.9 0</gx:coord>
+<gx:coord>325.3 51.5 0</gx:coord>
+<gx:coord>329.5 52.2 0</gx:coord>
+<gx:coord>333.5 52.8 0</gx:coord>
+<gx:coord>338 53.8 0</gx:coord>
+<gx:coord>342.3 55.3 0</gx:coord>
+<gx:coord>345.4 57.6 0</gx:coord>
+<gx:coord>348.1 59.8 0</gx:coord>
+<gx:coord>351.6 61.7 0</gx:coord>
+<gx:coord>355.5 63.6 0</gx:coord>
+<gx:coord>359 65.6 0</gx:coord>
+<gx:coord>1.9 67.5 0</gx:coord>
+<gx:coord>6.6 68.8 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>GERARD</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-09-05T18:00Z</when>
+<when>2005-09-06T00:00Z</when>
+<when>2005-09-06T06:00Z</when>
+<when>2005-09-06T12:00Z</when>
+<when>2005-09-06T18:00Z</when>
+<when>2005-09-07T00:00Z</when>
+<when>2005-09-07T06:00Z</when>
+<when>2005-09-07T12:00Z</when>
+<when>2005-09-07T18:00Z</when>
+<when>2005-09-08T00:00Z</when>
+<when>2005-09-08T06:00Z</when>
+<when>2005-09-08T12:00Z</when>
+<when>2005-09-08T18:00Z</when>
+<when>2005-09-09T00:00Z</when>
+<when>2005-09-09T06:00Z</when>
+<when>2005-09-09T12:00Z</when>
+<when>2005-09-09T18:00Z</when>
+<when>2005-09-10T00:00Z</when>
+<when>2005-09-10T06:00Z</when>
+<when>2005-09-10T12:00Z</when>
+<when>2005-09-10T18:00Z</when>
+<when>2005-09-11T00:00Z</when>
+<when>2005-09-11T06:00Z</when>
+<when>2005-09-11T12:00Z</when>
+<when>2005-09-11T18:00Z</when>
+<when>2005-09-12T00:00Z</when>
+<when>2005-09-12T06:00Z</when>
+<when>2005-09-12T12:00Z</when>
+<when>2005-09-12T18:00Z</when>
+<gx:coord>293 28.4 0</gx:coord>
+<gx:coord>293.4 28.4 0</gx:coord>
+<gx:coord>293.5 28.5 0</gx:coord>
+<gx:coord>293.5 28.5 0</gx:coord>
+<gx:coord>293.6 28.6 0</gx:coord>
+<gx:coord>293.7 28.7 0</gx:coord>
+<gx:coord>293.7 28.7 0</gx:coord>
+<gx:coord>293.8 28.9 0</gx:coord>
+<gx:coord>294 29.3 0</gx:coord>
+<gx:coord>294.3 29.6 0</gx:coord>
+<gx:coord>295 30 0</gx:coord>
+<gx:coord>296.2 30.5 0</gx:coord>
+<gx:coord>297.3 31.4 0</gx:coord>
+<gx:coord>298.9 32.6 0</gx:coord>
+<gx:coord>300.9 33.4 0</gx:coord>
+<gx:coord>304.2 34 0</gx:coord>
+<gx:coord>306.6 34.5 0</gx:coord>
+<gx:coord>309.2 34.7 0</gx:coord>
+<gx:coord>311 34.6 0</gx:coord>
+<gx:coord>314.1 34.5 0</gx:coord>
+<gx:coord>315.9 34.9 0</gx:coord>
+<gx:coord>317.9 35.2 0</gx:coord>
+<gx:coord>319.4 36 0</gx:coord>
+<gx:coord>321.7 37.4 0</gx:coord>
+<gx:coord>324.4 39.2 0</gx:coord>
+<gx:coord>326.7 41.6 0</gx:coord>
+<gx:coord>328 43.5 0</gx:coord>
+<gx:coord>331.9 44 0</gx:coord>
+<gx:coord>335 46 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>MEENA</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-09-17T12:00Z</when>
+<when>2005-09-17T18:00Z</when>
+<when>2005-09-18T00:00Z</when>
+<when>2005-09-18T06:00Z</when>
+<when>2005-09-18T12:00Z</when>
+<when>2005-09-18T18:00Z</when>
+<when>2005-09-19T00:00Z</when>
+<when>2005-09-19T06:00Z</when>
+<when>2005-09-19T12:00Z</when>
+<when>2005-09-19T18:00Z</when>
+<when>2005-09-20T00:00Z</when>
+<when>2005-09-20T06:00Z</when>
+<when>2005-09-20T12:00Z</when>
+<when>2005-09-20T18:00Z</when>
+<when>2005-09-21T00:00Z</when>
+<when>2005-09-21T06:00Z</when>
+<when>2005-09-21T12:00Z</when>
+<when>2005-09-21T18:00Z</when>
+<when>2005-09-22T00:00Z</when>
+<when>2005-09-22T06:00Z</when>
+<when>2005-09-22T12:00Z</when>
+<when>2005-09-22T18:00Z</when>
+<when>2005-09-23T00:00Z</when>
+<when>2005-09-23T06:00Z</when>
+<when>2005-09-23T12:00Z</when>
+<when>2005-09-23T18:00Z</when>
+<when>2005-09-24T00:00Z</when>
+<when>2005-09-24T06:00Z</when>
+<gx:coord>305.5 13.3 0</gx:coord>
+<gx:coord>305.1 13.5 0</gx:coord>
+<gx:coord>304.9 13.9 0</gx:coord>
+<gx:coord>304.7 14.4 0</gx:coord>
+<gx:coord>304.5 14.9 0</gx:coord>
+<gx:coord>304.3 15.6 0</gx:coord>
+<gx:coord>304.2 16.2 0</gx:coord>
+<gx:coord>304.1 16.7 0</gx:coord>
+<gx:coord>303.8 17.2 0</gx:coord>
+<gx:coord>303.6 17.5 0</gx:coord>
+<gx:coord>303.4 17.7 0</gx:coord>
+<gx:coord>303.2 17.9 0</gx:coord>
+<gx:coord>303 18.1 0</gx:coord>
+<gx:coord>302.8 18.5 0</gx:coord>
+<gx:coord>302.8 18.9 0</gx:coord>
+<gx:coord>302.9 19.4 0</gx:coord>
+<gx:coord>303 19.9 0</gx:coord>
+<gx:coord>303.1 20.8 0</gx:coord>
+<gx:coord>303.3 22.4 0</gx:coord>
+<gx:coord>303.2 23.8 0</gx:coord>
+<gx:coord>302.8 25.2 0</gx:coord>
+<gx:coord>302.4 26.7 0</gx:coord>
+<gx:coord>301.8 28.3 0</gx:coord>
+<gx:coord>299.9 30.2 0</gx:coord>
+<gx:coord>297.8 30.5 0</gx:coord>
+<gx:coord>296.3 30.2 0</gx:coord>
+<gx:coord>296.2 29.2 0</gx:coord>
+<gx:coord>297.2 28.6 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>HARVEY</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-09-18T00:00Z</when>
+<when>2005-09-18T06:00Z</when>
+<when>2005-09-18T12:00Z</when>
+<when>2005-09-18T18:00Z</when>
+<when>2005-09-19T00:00Z</when>
+<when>2005-09-19T06:00Z</when>
+<when>2005-09-19T12:00Z</when>
+<when>2005-09-19T18:00Z</when>
+<when>2005-09-20T00:00Z</when>
+<when>2005-09-20T06:00Z</when>
+<when>2005-09-20T12:00Z</when>
+<when>2005-09-20T18:00Z</when>
+<when>2005-09-21T00:00Z</when>
+<when>2005-09-21T06:00Z</when>
+<when>2005-09-21T12:00Z</when>
+<when>2005-09-21T18:00Z</when>
+<when>2005-09-22T00:00Z</when>
+<when>2005-09-22T03:00Z</when>
+<when>2005-09-22T06:00Z</when>
+<when>2005-09-22T12:00Z</when>
+<when>2005-09-22T18:00Z</when>
+<when>2005-09-23T00:00Z</when>
+<when>2005-09-23T06:00Z</when>
+<when>2005-09-23T12:00Z</when>
+<when>2005-09-23T18:00Z</when>
+<when>2005-09-24T00:00Z</when>
+<when>2005-09-24T06:00Z</when>
+<when>2005-09-24T07:40Z</when>
+<when>2005-09-24T12:00Z</when>
+<when>2005-09-24T18:00Z</when>
+<when>2005-09-25T00:00Z</when>
+<when>2005-09-25T06:00Z</when>
+<when>2005-09-25T12:00Z</when>
+<when>2005-09-25T18:00Z</when>
+<when>2005-09-26T00:00Z</when>
+<when>2005-09-26T06:00Z</when>
+<gx:coord>290.1 21.3 0</gx:coord>
+<gx:coord>289.3 21.6 0</gx:coord>
+<gx:coord>288.5 21.9 0</gx:coord>
+<gx:coord>287.7 22.2 0</gx:coord>
+<gx:coord>287 22.4 0</gx:coord>
+<gx:coord>286.2 22.6 0</gx:coord>
+<gx:coord>285.3 22.8 0</gx:coord>
+<gx:coord>284.1 23.1 0</gx:coord>
+<gx:coord>282.8 23.3 0</gx:coord>
+<gx:coord>281.2 23.5 0</gx:coord>
+<gx:coord>279.7 23.7 0</gx:coord>
+<gx:coord>278.4 23.9 0</gx:coord>
+<gx:coord>277.3 24.1 0</gx:coord>
+<gx:coord>276 24.2 0</gx:coord>
+<gx:coord>274.8 24.2 0</gx:coord>
+<gx:coord>273.8 24.3 0</gx:coord>
+<gx:coord>273.1 24.5 0</gx:coord>
+<gx:coord>272.7 24.7 0</gx:coord>
+<gx:coord>272.4 24.8 0</gx:coord>
+<gx:coord>271.7 25.2 0</gx:coord>
+<gx:coord>270.9 25.6 0</gx:coord>
+<gx:coord>270.1 26 0</gx:coord>
+<gx:coord>269.3 26.5 0</gx:coord>
+<gx:coord>268.5 27.1 0</gx:coord>
+<gx:coord>267.7 27.8 0</gx:coord>
+<gx:coord>267 28.6 0</gx:coord>
+<gx:coord>266.4 29.4 0</gx:coord>
+<gx:coord>266.3 29.7 0</gx:coord>
+<gx:coord>265.9 30.5 0</gx:coord>
+<gx:coord>265.9 31.6 0</gx:coord>
+<gx:coord>266 32.7 0</gx:coord>
+<gx:coord>266.4 33.7 0</gx:coord>
+<gx:coord>267.5 34.7 0</gx:coord>
+<gx:coord>268.6 35.8 0</gx:coord>
+<gx:coord>269.9 37 0</gx:coord>
+<gx:coord>272 39.5 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>VIVIENNE</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-09-30T12:00Z</when>
+<when>2005-09-30T18:00Z</when>
+<when>2005-10-01T00:00Z</when>
+<when>2005-10-01T06:00Z</when>
+<when>2005-10-01T12:00Z</when>
+<when>2005-10-01T18:00Z</when>
+<when>2005-10-02T00:00Z</when>
+<when>2005-10-02T06:00Z</when>
+<when>2005-10-02T12:00Z</when>
+<gx:coord>327.3 11.8 0</gx:coord>
+<gx:coord>327 12.2 0</gx:coord>
+<gx:coord>326.7 12.7 0</gx:coord>
+<gx:coord>326.5 13.3 0</gx:coord>
+<gx:coord>326.3 13.8 0</gx:coord>
+<gx:coord>326.1 14.4 0</gx:coord>
+<gx:coord>326.2 15 0</gx:coord>
+<gx:coord>325.7 15.7 0</gx:coord>
+<gx:coord>324.7 16.6 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>OLAF</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-10-01T12:00Z</when>
+<when>2005-10-01T18:00Z</when>
+<when>2005-10-02T00:00Z</when>
+<when>2005-10-02T06:00Z</when>
+<when>2005-10-02T10:00Z</when>
+<when>2005-10-02T12:00Z</when>
+<when>2005-10-02T18:00Z</when>
+<when>2005-10-03T00:00Z</when>
+<when>2005-10-03T06:00Z</when>
+<when>2005-10-03T12:00Z</when>
+<when>2005-10-03T18:00Z</when>
+<when>2005-10-04T00:00Z</when>
+<when>2005-10-04T06:00Z</when>
+<when>2005-10-04T12:00Z</when>
+<when>2005-10-04T18:00Z</when>
+<when>2005-10-05T00:00Z</when>
+<when>2005-10-05T06:00Z</when>
+<gx:coord>274.4 18.9 0</gx:coord>
+<gx:coord>273.8 19.1 0</gx:coord>
+<gx:coord>273.3 19.3 0</gx:coord>
+<gx:coord>272.8 19.5 0</gx:coord>
+<gx:coord>272.5 19.6 0</gx:coord>
+<gx:coord>272.1 19.8 0</gx:coord>
+<gx:coord>271.2 20.3 0</gx:coord>
+<gx:coord>270.2 20.5 0</gx:coord>
+<gx:coord>269 20.5 0</gx:coord>
+<gx:coord>268.3 20.3 0</gx:coord>
+<gx:coord>267.8 20.1 0</gx:coord>
+<gx:coord>266.8 19.8 0</gx:coord>
+<gx:coord>265.9 19.2 0</gx:coord>
+<gx:coord>265.1 18.6 0</gx:coord>
+<gx:coord>264.4 17.9 0</gx:coord>
+<gx:coord>263.6 17.2 0</gx:coord>
+<gx:coord>263 16.9 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>NANCY</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-10-04T00:00Z</when>
+<when>2005-10-04T06:00Z</when>
+<when>2005-10-04T12:00Z</when>
+<when>2005-10-04T18:00Z</when>
+<when>2005-10-05T00:00Z</when>
+<when>2005-10-05T06:00Z</when>
+<when>2005-10-05T12:00Z</when>
+<gx:coord>328.2 33.8 0</gx:coord>
+<gx:coord>329.8 34.8 0</gx:coord>
+<gx:coord>331.5 35.9 0</gx:coord>
+<gx:coord>333.3 37.1 0</gx:coord>
+<gx:coord>335 38.8 0</gx:coord>
+<gx:coord>336.7 41 0</gx:coord>
+<gx:coord>337 43.6 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>PERCY</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-10-05T06:00Z</when>
+<when>2005-10-05T12:00Z</when>
+<when>2005-10-05T18:00Z</when>
+<when>2005-10-05T23:00Z</when>
+<when>2005-10-06T00:00Z</when>
+<when>2005-10-06T06:00Z</when>
+<when>2005-10-06T12:00Z</when>
+<when>2005-10-06T18:00Z</when>
+<when>2005-10-07T00:00Z</when>
+<gx:coord>280.3 27.3 0</gx:coord>
+<gx:coord>279.8 28.3 0</gx:coord>
+<gx:coord>279.1 29.5 0</gx:coord>
+<gx:coord>278.6 30.4 0</gx:coord>
+<gx:coord>278.4 30.5 0</gx:coord>
+<gx:coord>277.2 31.3 0</gx:coord>
+<gx:coord>275.4 31.8 0</gx:coord>
+<gx:coord>274.2 31.2 0</gx:coord>
+<gx:coord>274.4 30.3 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>RAE:RAY</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-10-08T06:00Z</when>
+<when>2005-10-08T12:00Z</when>
+<when>2005-10-08T18:00Z</when>
+<when>2005-10-09T00:00Z</when>
+<when>2005-10-09T06:00Z</when>
+<when>2005-10-09T12:00Z</when>
+<when>2005-10-09T18:00Z</when>
+<when>2005-10-10T00:00Z</when>
+<when>2005-10-10T06:00Z</when>
+<when>2005-10-10T12:00Z</when>
+<when>2005-10-10T18:00Z</when>
+<when>2005-10-11T00:00Z</when>
+<when>2005-10-11T06:00Z</when>
+<when>2005-10-11T12:00Z</when>
+<when>2005-10-11T18:00Z</when>
+<when>2005-10-12T00:00Z</when>
+<when>2005-10-12T06:00Z</when>
+<when>2005-10-12T12:00Z</when>
+<when>2005-10-12T18:00Z</when>
+<when>2005-10-13T00:00Z</when>
+<when>2005-10-13T06:00Z</when>
+<when>2005-10-13T12:00Z</when>
+<when>2005-10-13T18:00Z</when>
+<when>2005-10-14T00:00Z</when>
+<when>2005-10-14T06:00Z</when>
+<when>2005-10-14T12:00Z</when>
+<when>2005-10-14T18:00Z</when>
+<gx:coord>302.6 26.1 0</gx:coord>
+<gx:coord>301.5 27.7 0</gx:coord>
+<gx:coord>299.9 28.8 0</gx:coord>
+<gx:coord>298 29.3 0</gx:coord>
+<gx:coord>296.7 29.3 0</gx:coord>
+<gx:coord>295.5 29.5 0</gx:coord>
+<gx:coord>294.8 30 0</gx:coord>
+<gx:coord>294 30.7 0</gx:coord>
+<gx:coord>292.5 31.6 0</gx:coord>
+<gx:coord>291.1 32.5 0</gx:coord>
+<gx:coord>290 33.5 0</gx:coord>
+<gx:coord>289 34.3 0</gx:coord>
+<gx:coord>288.3 35.5 0</gx:coord>
+<gx:coord>288.2 36.7 0</gx:coord>
+<gx:coord>288.3 37.8 0</gx:coord>
+<gx:coord>288.1 38.5 0</gx:coord>
+<gx:coord>287.6 38.8 0</gx:coord>
+<gx:coord>287 38.9 0</gx:coord>
+<gx:coord>286.5 38.7 0</gx:coord>
+<gx:coord>286.5 38.3 0</gx:coord>
+<gx:coord>286.5 37.7 0</gx:coord>
+<gx:coord>287 37.2 0</gx:coord>
+<gx:coord>287 37.8 0</gx:coord>
+<gx:coord>286.6 38 0</gx:coord>
+<gx:coord>286.2 37.6 0</gx:coord>
+<gx:coord>286.2 38.6 0</gx:coord>
+<gx:coord>286.2 39.6 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>INGRID</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-10-08T06:00Z</when>
+<when>2005-10-08T12:00Z</when>
+<when>2005-10-08T18:00Z</when>
+<when>2005-10-09T00:00Z</when>
+<when>2005-10-09T06:00Z</when>
+<when>2005-10-09T12:00Z</when>
+<when>2005-10-09T18:00Z</when>
+<when>2005-10-10T00:00Z</when>
+<when>2005-10-10T06:00Z</when>
+<when>2005-10-10T12:00Z</when>
+<when>2005-10-10T18:00Z</when>
+<when>2005-10-11T00:00Z</when>
+<when>2005-10-11T06:00Z</when>
+<when>2005-10-11T09:00Z</when>
+<when>2005-10-11T12:00Z</when>
+<gx:coord>339.4 32.9 0</gx:coord>
+<gx:coord>339.7 33 0</gx:coord>
+<gx:coord>339.9 33.1 0</gx:coord>
+<gx:coord>340 33.2 0</gx:coord>
+<gx:coord>340.4 33.4 0</gx:coord>
+<gx:coord>340.7 33.8 0</gx:coord>
+<gx:coord>341.1 34.1 0</gx:coord>
+<gx:coord>341.7 34.3 0</gx:coord>
+<gx:coord>342.8 34.5 0</gx:coord>
+<gx:coord>344.7 34.7 0</gx:coord>
+<gx:coord>347.2 35.4 0</gx:coord>
+<gx:coord>349.5 36.1 0</gx:coord>
+<gx:coord>351.7 36.7 0</gx:coord>
+<gx:coord>352.9 37.2 0</gx:coord>
+<gx:coord>354 37.7 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>WILLY</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-10-15T18:00Z</when>
+<when>2005-10-16T00:00Z</when>
+<when>2005-10-16T06:00Z</when>
+<when>2005-10-16T12:00Z</when>
+<when>2005-10-16T18:00Z</when>
+<when>2005-10-17T00:00Z</when>
+<when>2005-10-17T06:00Z</when>
+<when>2005-10-17T12:00Z</when>
+<when>2005-10-17T18:00Z</when>
+<when>2005-10-18T00:00Z</when>
+<when>2005-10-18T06:00Z</when>
+<when>2005-10-18T12:00Z</when>
+<when>2005-10-18T18:00Z</when>
+<when>2005-10-19T00:00Z</when>
+<when>2005-10-19T06:00Z</when>
+<when>2005-10-19T12:00Z</when>
+<when>2005-10-19T18:00Z</when>
+<when>2005-10-20T00:00Z</when>
+<when>2005-10-20T06:00Z</when>
+<when>2005-10-20T12:00Z</when>
+<when>2005-10-20T18:00Z</when>
+<when>2005-10-21T00:00Z</when>
+<when>2005-10-21T06:00Z</when>
+<when>2005-10-21T12:00Z</when>
+<when>2005-10-21T18:00Z</when>
+<when>2005-10-21T21:45Z</when>
+<when>2005-10-22T00:00Z</when>
+<when>2005-10-22T03:30Z</when>
+<when>2005-10-22T06:00Z</when>
+<when>2005-10-22T12:00Z</when>
+<when>2005-10-22T18:00Z</when>
+<when>2005-10-23T00:00Z</when>
+<when>2005-10-23T06:00Z</when>
+<when>2005-10-23T12:00Z</when>
+<when>2005-10-23T18:00Z</when>
+<when>2005-10-24T00:00Z</when>
+<when>2005-10-24T06:00Z</when>
+<when>2005-10-24T10:30Z</when>
+<when>2005-10-24T12:00Z</when>
+<when>2005-10-24T18:00Z</when>
+<when>2005-10-25T00:00Z</when>
+<when>2005-10-25T06:00Z</when>
+<when>2005-10-25T12:00Z</when>
+<when>2005-10-25T18:00Z</when>
+<when>2005-10-26T00:00Z</when>
+<when>2005-10-26T06:00Z</when>
+<when>2005-10-26T12:00Z</when>
+<when>2005-10-26T18:00Z</when>
+<gx:coord>281.5 17.6 0</gx:coord>
+<gx:coord>281.2 17.6 0</gx:coord>
+<gx:coord>281 17.5 0</gx:coord>
+<gx:coord>280.8 17.5 0</gx:coord>
+<gx:coord>280.6 17.5 0</gx:coord>
+<gx:coord>280.4 17.4 0</gx:coord>
+<gx:coord>280.4 16.9 0</gx:coord>
+<gx:coord>280.3 16.3 0</gx:coord>
+<gx:coord>280.2 16 0</gx:coord>
+<gx:coord>280.1 15.8 0</gx:coord>
+<gx:coord>280.1 15.7 0</gx:coord>
+<gx:coord>279.7 16.2 0</gx:coord>
+<gx:coord>278.9 16.6 0</gx:coord>
+<gx:coord>278.2 16.6 0</gx:coord>
+<gx:coord>277.8 17 0</gx:coord>
+<gx:coord>277.2 17.3 0</gx:coord>
+<gx:coord>276.6 17.4 0</gx:coord>
+<gx:coord>276 17.9 0</gx:coord>
+<gx:coord>275.3 18.1 0</gx:coord>
+<gx:coord>274.8 18.3 0</gx:coord>
+<gx:coord>274.5 18.6 0</gx:coord>
+<gx:coord>274.2 19.1 0</gx:coord>
+<gx:coord>273.9 19.5 0</gx:coord>
+<gx:coord>273.6 20.1 0</gx:coord>
+<gx:coord>273.3 20.3 0</gx:coord>
+<gx:coord>273.2 20.6 0</gx:coord>
+<gx:coord>273.2 20.6 0</gx:coord>
+<gx:coord>273.1 20.8 0</gx:coord>
+<gx:coord>273 20.8 0</gx:coord>
+<gx:coord>272.9 21 0</gx:coord>
+<gx:coord>272.9 21.3 0</gx:coord>
+<gx:coord>273 21.6 0</gx:coord>
+<gx:coord>273.2 21.8 0</gx:coord>
+<gx:coord>273.9 22.4 0</gx:coord>
+<gx:coord>274.6 23.1 0</gx:coord>
+<gx:coord>275.7 24 0</gx:coord>
+<gx:coord>276.9 25 0</gx:coord>
+<gx:coord>278.3 25.9 0</gx:coord>
+<gx:coord>279 26.2 0</gx:coord>
+<gx:coord>281.2 28 0</gx:coord>
+<gx:coord>284 30.1 0</gx:coord>
+<gx:coord>288 33.3 0</gx:coord>
+<gx:coord>292.1 36.8 0</gx:coord>
+<gx:coord>296.5 40.5 0</gx:coord>
+<gx:coord>300 42.5 0</gx:coord>
+<gx:coord>302.5 44 0</gx:coord>
+<gx:coord>305 45 0</gx:coord>
+<gx:coord>308 45.5 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>ROKE</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-10-22T12:00Z</when>
+<when>2005-10-22T18:00Z</when>
+<when>2005-10-23T00:00Z</when>
+<when>2005-10-23T06:00Z</when>
+<when>2005-10-23T10:00Z</when>
+<when>2005-10-23T12:00Z</when>
+<when>2005-10-23T18:00Z</when>
+<when>2005-10-24T00:00Z</when>
+<when>2005-10-24T06:00Z</when>
+<when>2005-10-24T12:00Z</when>
+<when>2005-10-24T18:00Z</when>
+<gx:coord>292.5 15.8 0</gx:coord>
+<gx:coord>291.5 16.5 0</gx:coord>
+<gx:coord>290.4 17.3 0</gx:coord>
+<gx:coord>289.5 17.8 0</gx:coord>
+<gx:coord>288.7 18.3 0</gx:coord>
+<gx:coord>287.8 18.6 0</gx:coord>
+<gx:coord>287.3 19.8 0</gx:coord>
+<gx:coord>287.1 21.6 0</gx:coord>
+<gx:coord>287 23.5 0</gx:coord>
+<gx:coord>287.6 25.1 0</gx:coord>
+<gx:coord>289.2 27.9 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>HENNE:HENNIE</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-10-26T18:00Z</when>
+<when>2005-10-27T00:00Z</when>
+<when>2005-10-27T06:00Z</when>
+<when>2005-10-27T12:00Z</when>
+<when>2005-10-27T18:00Z</when>
+<when>2005-10-28T00:00Z</when>
+<when>2005-10-28T06:00Z</when>
+<when>2005-10-28T12:00Z</when>
+<when>2005-10-28T18:00Z</when>
+<when>2005-10-29T00:00Z</when>
+<when>2005-10-29T06:00Z</when>
+<when>2005-10-29T12:00Z</when>
+<when>2005-10-29T18:00Z</when>
+<when>2005-10-30T00:00Z</when>
+<when>2005-10-30T06:00Z</when>
+<when>2005-10-30T12:00Z</when>
+<when>2005-10-30T18:00Z</when>
+<when>2005-10-31T00:00Z</when>
+<gx:coord>279.1 10.4 0</gx:coord>
+<gx:coord>278.9 10.7 0</gx:coord>
+<gx:coord>278.7 11 0</gx:coord>
+<gx:coord>278.7 11.3 0</gx:coord>
+<gx:coord>278.7 11.6 0</gx:coord>
+<gx:coord>278.8 11.9 0</gx:coord>
+<gx:coord>278.9 12.3 0</gx:coord>
+<gx:coord>279 12.8 0</gx:coord>
+<gx:coord>278.9 13.2 0</gx:coord>
+<gx:coord>278.8 13.4 0</gx:coord>
+<gx:coord>278.6 13.6 0</gx:coord>
+<gx:coord>278.4 13.7 0</gx:coord>
+<gx:coord>277.9 13.7 0</gx:coord>
+<gx:coord>277.4 13.6 0</gx:coord>
+<gx:coord>276.9 13.3 0</gx:coord>
+<gx:coord>276.5 12.9 0</gx:coord>
+<gx:coord>275.9 12.7 0</gx:coord>
+<gx:coord>275.1 12.7 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>ISANG</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-11-14T00:00Z</when>
+<when>2005-11-14T06:00Z</when>
+<when>2005-11-14T12:00Z</when>
+<when>2005-11-14T18:00Z</when>
+<when>2005-11-15T00:00Z</when>
+<when>2005-11-15T06:00Z</when>
+<when>2005-11-15T12:00Z</when>
+<when>2005-11-15T18:00Z</when>
+<when>2005-11-16T00:00Z</when>
+<when>2005-11-16T06:00Z</when>
+<when>2005-11-16T12:00Z</when>
+<when>2005-11-16T18:00Z</when>
+<when>2005-11-17T00:00Z</when>
+<when>2005-11-17T06:00Z</when>
+<when>2005-11-17T12:00Z</when>
+<when>2005-11-17T18:00Z</when>
+<when>2005-11-18T00:00Z</when>
+<when>2005-11-18T06:00Z</when>
+<when>2005-11-18T12:00Z</when>
+<when>2005-11-18T18:00Z</when>
+<when>2005-11-19T00:00Z</when>
+<when>2005-11-19T06:00Z</when>
+<when>2005-11-19T12:00Z</when>
+<when>2005-11-19T18:00Z</when>
+<when>2005-11-20T00:00Z</when>
+<when>2005-11-20T06:00Z</when>
+<when>2005-11-20T12:00Z</when>
+<when>2005-11-20T18:00Z</when>
+<when>2005-11-21T00:00Z</when>
+<when>2005-11-21T06:00Z</when>
+<when>2005-11-21T12:00Z</when>
+<when>2005-11-21T18:00Z</when>
+<when>2005-11-22T00:00Z</when>
+<gx:coord>297.9 13.2 0</gx:coord>
+<gx:coord>297.2 13.6 0</gx:coord>
+<gx:coord>296.6 13.8 0</gx:coord>
+<gx:coord>295.8 14.1 0</gx:coord>
+<gx:coord>295 14.2 0</gx:coord>
+<gx:coord>294 14.3 0</gx:coord>
+<gx:coord>292.9 14.4 0</gx:coord>
+<gx:coord>291.6 14.7 0</gx:coord>
+<gx:coord>290.1 14.8 0</gx:coord>
+<gx:coord>288.5 14.8 0</gx:coord>
+<gx:coord>286.9 14.7 0</gx:coord>
+<gx:coord>284.6 14.8 0</gx:coord>
+<gx:coord>282.4 15 0</gx:coord>
+<gx:coord>280.3 15.3 0</gx:coord>
+<gx:coord>278.3 15.6 0</gx:coord>
+<gx:coord>276.9 15.8 0</gx:coord>
+<gx:coord>275.9 15.8 0</gx:coord>
+<gx:coord>275.2 15.7 0</gx:coord>
+<gx:coord>274.5 15.5 0</gx:coord>
+<gx:coord>274.4 15.7 0</gx:coord>
+<gx:coord>274.4 16 0</gx:coord>
+<gx:coord>274.4 16.1 0</gx:coord>
+<gx:coord>274.6 16.1 0</gx:coord>
+<gx:coord>274.8 16.2 0</gx:coord>
+<gx:coord>275 16.4 0</gx:coord>
+<gx:coord>275 16.6 0</gx:coord>
+<gx:coord>274.8 16.7 0</gx:coord>
+<gx:coord>274.5 16.9 0</gx:coord>
+<gx:coord>274.5 17.1 0</gx:coord>
+<gx:coord>274.8 17 0</gx:coord>
+<gx:coord>275.2 16.7 0</gx:coord>
+<gx:coord>275.7 16.4 0</gx:coord>
+<gx:coord>276.5 15.4 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>ADELINE:ADELINE-JULI:JULIET</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-11-19T12:00Z</when>
+<when>2005-11-19T18:00Z</when>
+<when>2005-11-20T00:00Z</when>
+<when>2005-11-20T06:00Z</when>
+<when>2005-11-20T12:00Z</when>
+<when>2005-11-20T18:00Z</when>
+<when>2005-11-21T00:00Z</when>
+<when>2005-11-21T06:00Z</when>
+<when>2005-11-21T12:00Z</when>
+<when>2005-11-21T18:00Z</when>
+<when>2005-11-22T00:00Z</when>
+<when>2005-11-22T06:00Z</when>
+<when>2005-11-22T12:00Z</when>
+<when>2005-11-22T18:00Z</when>
+<when>2005-11-23T00:00Z</when>
+<when>2005-11-23T06:00Z</when>
+<when>2005-11-23T12:00Z</when>
+<when>2005-11-23T18:00Z</when>
+<when>2005-11-24T00:00Z</when>
+<when>2005-11-24T06:00Z</when>
+<when>2005-11-24T12:00Z</when>
+<when>2005-11-24T18:00Z</when>
+<when>2005-11-25T00:00Z</when>
+<when>2005-11-25T06:00Z</when>
+<when>2005-11-25T12:00Z</when>
+<when>2005-11-25T18:00Z</when>
+<when>2005-11-26T00:00Z</when>
+<when>2005-11-26T06:00Z</when>
+<when>2005-11-26T12:00Z</when>
+<when>2005-11-26T18:00Z</when>
+<when>2005-11-27T00:00Z</when>
+<when>2005-11-27T06:00Z</when>
+<when>2005-11-27T12:00Z</when>
+<when>2005-11-27T18:00Z</when>
+<when>2005-11-28T00:00Z</when>
+<when>2005-11-28T06:00Z</when>
+<when>2005-11-28T12:00Z</when>
+<when>2005-11-28T18:00Z</when>
+<when>2005-11-29T00:00Z</when>
+<when>2005-11-29T06:00Z</when>
+<when>2005-11-29T12:00Z</when>
+<when>2005-11-29T18:00Z</when>
+<gx:coord>312 27 0</gx:coord>
+<gx:coord>312.5 26.7 0</gx:coord>
+<gx:coord>313.3 26.7 0</gx:coord>
+<gx:coord>314.1 27.2 0</gx:coord>
+<gx:coord>315.2 27.7 0</gx:coord>
+<gx:coord>316.5 28 0</gx:coord>
+<gx:coord>317.8 28.3 0</gx:coord>
+<gx:coord>318.9 29 0</gx:coord>
+<gx:coord>319.9 29.9 0</gx:coord>
+<gx:coord>320.4 30.9 0</gx:coord>
+<gx:coord>319.9 31.5 0</gx:coord>
+<gx:coord>320.1 31.4 0</gx:coord>
+<gx:coord>320.2 31.2 0</gx:coord>
+<gx:coord>319.5 30.7 0</gx:coord>
+<gx:coord>319.1 29.9 0</gx:coord>
+<gx:coord>318.7 28.8 0</gx:coord>
+<gx:coord>318.8 27.4 0</gx:coord>
+<gx:coord>319.2 26.4 0</gx:coord>
+<gx:coord>319.8 25.5 0</gx:coord>
+<gx:coord>320.4 25 0</gx:coord>
+<gx:coord>321 24.8 0</gx:coord>
+<gx:coord>321.1 24.6 0</gx:coord>
+<gx:coord>321 24.1 0</gx:coord>
+<gx:coord>320.7 23.8 0</gx:coord>
+<gx:coord>320.4 23.3 0</gx:coord>
+<gx:coord>320.2 22.8 0</gx:coord>
+<gx:coord>320.2 22.3 0</gx:coord>
+<gx:coord>320.6 21.8 0</gx:coord>
+<gx:coord>321.6 22 0</gx:coord>
+<gx:coord>322.7 22.6 0</gx:coord>
+<gx:coord>324.2 23.5 0</gx:coord>
+<gx:coord>326 24.8 0</gx:coord>
+<gx:coord>328.1 26.7 0</gx:coord>
+<gx:coord>330.1 28.3 0</gx:coord>
+<gx:coord>332.5 29.1 0</gx:coord>
+<gx:coord>335.2 29.9 0</gx:coord>
+<gx:coord>338.4 30.2 0</gx:coord>
+<gx:coord>341.8 30.2 0</gx:coord>
+<gx:coord>345.4 30.2 0</gx:coord>
+<gx:coord>349.1 30.7 0</gx:coord>
+<gx:coord>353.4 32.6 0</gx:coord>
+<gx:coord>359 35.3 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>UNNAMED</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-11-29T06:00Z</when>
+<when>2005-11-29T12:00Z</when>
+<when>2005-11-29T18:00Z</when>
+<when>2005-11-30T00:00Z</when>
+<when>2005-11-30T06:00Z</when>
+<when>2005-11-30T12:00Z</when>
+<when>2005-11-30T18:00Z</when>
+<when>2005-12-01T00:00Z</when>
+<when>2005-12-01T06:00Z</when>
+<when>2005-12-01T12:00Z</when>
+<when>2005-12-01T18:00Z</when>
+<when>2005-12-02T00:00Z</when>
+<when>2005-12-02T06:00Z</when>
+<when>2005-12-02T12:00Z</when>
+<when>2005-12-02T18:00Z</when>
+<when>2005-12-03T00:00Z</when>
+<when>2005-12-03T06:00Z</when>
+<when>2005-12-03T12:00Z</when>
+<when>2005-12-03T18:00Z</when>
+<when>2005-12-04T00:00Z</when>
+<when>2005-12-04T06:00Z</when>
+<when>2005-12-04T12:00Z</when>
+<when>2005-12-04T18:00Z</when>
+<when>2005-12-05T00:00Z</when>
+<when>2005-12-05T06:00Z</when>
+<when>2005-12-05T12:00Z</when>
+<when>2005-12-05T18:00Z</when>
+<when>2005-12-06T00:00Z</when>
+<when>2005-12-06T06:00Z</when>
+<when>2005-12-06T12:00Z</when>
+<when>2005-12-06T18:00Z</when>
+<when>2005-12-07T00:00Z</when>
+<when>2005-12-07T06:00Z</when>
+<when>2005-12-07T12:00Z</when>
+<when>2005-12-07T18:00Z</when>
+<when>2005-12-08T00:00Z</when>
+<when>2005-12-08T06:00Z</when>
+<when>2005-12-08T12:00Z</when>
+<when>2005-12-08T18:00Z</when>
+<when>2005-12-09T00:00Z</when>
+<when>2005-12-09T06:00Z</when>
+<when>2005-12-09T12:00Z</when>
+<when>2005-12-09T18:00Z</when>
+<gx:coord>310.8 31.5 0</gx:coord>
+<gx:coord>310 31.6 0</gx:coord>
+<gx:coord>309.2 31.4 0</gx:coord>
+<gx:coord>308.5 31.4 0</gx:coord>
+<gx:coord>307.5 31.1 0</gx:coord>
+<gx:coord>306.5 30.8 0</gx:coord>
+<gx:coord>305.8 30.1 0</gx:coord>
+<gx:coord>306.2 29.7 0</gx:coord>
+<gx:coord>307.3 30 0</gx:coord>
+<gx:coord>308.1 30.8 0</gx:coord>
+<gx:coord>308.7 31.4 0</gx:coord>
+<gx:coord>309.4 31.9 0</gx:coord>
+<gx:coord>310.2 32.5 0</gx:coord>
+<gx:coord>311.1 33.2 0</gx:coord>
+<gx:coord>312.1 33.9 0</gx:coord>
+<gx:coord>312.9 34.3 0</gx:coord>
+<gx:coord>313.8 34.5 0</gx:coord>
+<gx:coord>315 34.5 0</gx:coord>
+<gx:coord>316.3 34.5 0</gx:coord>
+<gx:coord>317.7 34.3 0</gx:coord>
+<gx:coord>318.9 34.4 0</gx:coord>
+<gx:coord>320.2 34.3 0</gx:coord>
+<gx:coord>321.2 34.3 0</gx:coord>
+<gx:coord>322.2 34.2 0</gx:coord>
+<gx:coord>323.3 34 0</gx:coord>
+<gx:coord>324.5 33.8 0</gx:coord>
+<gx:coord>325.4 33.7 0</gx:coord>
+<gx:coord>326.2 33.4 0</gx:coord>
+<gx:coord>326.3 33.1 0</gx:coord>
+<gx:coord>326.3 32.3 0</gx:coord>
+<gx:coord>325.8 31.6 0</gx:coord>
+<gx:coord>325.1 30.8 0</gx:coord>
+<gx:coord>324 30.1 0</gx:coord>
+<gx:coord>322.9 29.4 0</gx:coord>
+<gx:coord>321.9 28.7 0</gx:coord>
+<gx:coord>321.2 28.2 0</gx:coord>
+<gx:coord>320.7 27.4 0</gx:coord>
+<gx:coord>320 26.5 0</gx:coord>
+<gx:coord>319.5 25.9 0</gx:coord>
+<gx:coord>319.4 25.5 0</gx:coord>
+<gx:coord>319.6 25.1 0</gx:coord>
+<gx:coord>319.9 24.7 0</gx:coord>
+<gx:coord>320.8 24.7 0</gx:coord>
+</gx:Track>
+</Placemark>
+<Placemark>
+<name>SONCA</name>
+<gx:Track>
+<altitudeMode>relativeToGround</altitudeMode>
+<when>2005-12-30T00:00Z</when>
+<when>2005-12-30T06:00Z</when>
+<when>2005-12-30T12:00Z</when>
+<when>2005-12-30T18:00Z</when>
+<when>2005-12-31T00:00Z</when>
+<when>2005-12-31T06:00Z</when>
+<when>2005-12-31T12:00Z</when>
+<when>2005-12-31T18:00Z</when>
+<when>2006-01-01T00:00Z</when>
+<when>2006-01-01T06:00Z</when>
+<when>2006-01-01T12:00Z</when>
+<when>2006-01-01T18:00Z</when>
+<when>2006-01-02T00:00Z</when>
+<when>2006-01-02T06:00Z</when>
+<when>2006-01-02T12:00Z</when>
+<when>2006-01-02T18:00Z</when>
+<when>2006-01-03T00:00Z</when>
+<when>2006-01-03T06:00Z</when>
+<when>2006-01-03T12:00Z</when>
+<when>2006-01-03T18:00Z</when>
+<when>2006-01-04T00:00Z</when>
+<when>2006-01-04T06:00Z</when>
+<when>2006-01-04T12:00Z</when>
+<when>2006-01-04T18:00Z</when>
+<when>2006-01-05T00:00Z</when>
+<when>2006-01-05T06:00Z</when>
+<when>2006-01-05T12:00Z</when>
+<when>2006-01-05T18:00Z</when>
+<when>2006-01-06T00:00Z</when>
+<when>2006-01-06T06:00Z</when>
+<when>2006-01-06T12:00Z</when>
+<when>2006-01-06T18:00Z</when>
+<when>2006-01-07T00:00Z</when>
+<when>2006-01-07T06:00Z</when>
+<when>2006-01-07T12:00Z</when>
+<when>2006-01-07T18:00Z</when>
+<gx:coord>324.4 23.9 0</gx:coord>
+<gx:coord>323.9 24.2 0</gx:coord>
+<gx:coord>323.4 24.7 0</gx:coord>
+<gx:coord>323 25.2 0</gx:coord>
+<gx:coord>322.7 25.6 0</gx:coord>
+<gx:coord>322.4 25.7 0</gx:coord>
+<gx:coord>322.1 25.7 0</gx:coord>
+<gx:coord>321.9 25.7 0</gx:coord>
+<gx:coord>321.7 25.6 0</gx:coord>
+<gx:coord>321.6 25.4 0</gx:coord>
+<gx:coord>321.5 25.2 0</gx:coord>
+<gx:coord>321.4 25 0</gx:coord>
+<gx:coord>321.1 24.6 0</gx:coord>
+<gx:coord>320.3 24.3 0</gx:coord>
+<gx:coord>319.6 23.8 0</gx:coord>
+<gx:coord>319.2 23.6 0</gx:coord>
+<gx:coord>319 23.4 0</gx:coord>
+<gx:coord>318.7 23.3 0</gx:coord>
+<gx:coord>318.4 23.2 0</gx:coord>
+<gx:coord>317.9 23 0</gx:coord>
+<gx:coord>317.6 22.6 0</gx:coord>
+<gx:coord>317.1 22.1 0</gx:coord>
+<gx:coord>316.4 21.9 0</gx:coord>
+<gx:coord>315.4 21.7 0</gx:coord>
+<gx:coord>314.4 21.7 0</gx:coord>
+<gx:coord>313.4 21.9 0</gx:coord>
+<gx:coord>312.7 22.2 0</gx:coord>
+<gx:coord>312.1 22.7 0</gx:coord>
+<gx:coord>311.6 23 0</gx:coord>
+<gx:coord>311 23.1 0</gx:coord>
+<gx:coord>310.4 23.1 0</gx:coord>
+<gx:coord>309.8 23.3 0</gx:coord>
+<gx:coord>308.6 23.7 0</gx:coord>
+<gx:coord>307.3 24.2 0</gx:coord>
+<gx:coord>305.8 24.8 0</gx:coord>
+<gx:coord>304.3 26.3 0</gx:coord>
+</gx:Track>
+</Placemark>
+</Folder>
+</Document>
+</kml>
+
