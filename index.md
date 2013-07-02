@@ -31,12 +31,6 @@ layout: default
 			Example 04: 3D COLLADA Models, Camera
 		</span>
 	</a>
-  <!-- <a href="{{site.base_url}}/examples/#ex_05">
-    <img src='{{site.base_url}}/img/slide-4.png'>
-    <span>
-      Example 05: GroundOverlay, ScreenOverlay
-    </span>
-  </a> -->
 	<a href="{{site.base_url}}/examples/#ex_06">
   		<img src='{{site.base_url}}/img/slide-5.png'>
   		<span>
