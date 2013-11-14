@@ -36,7 +36,7 @@
   kml = kml_open_document(kmlfilename, "Isolines", False)    ; open a new KML document
   kml = kml_open_placemark(kml, "Isolines", False)           ; open a Placemark element
 
-; the following loops are taken from example 1 of ncl documentation for function get_isolines
+; the following loops are taken from example 1 of the ncl documentation for function get_isolines
 ; http://www.ncl.ucar.edu/Document/Functions/Built-in/get_isolines.shtml
 
    isolines = get_isolines(plot@contour,"plot")
