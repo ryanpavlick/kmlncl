@@ -8,12 +8,13 @@
 ;  - setting certain areas transparent with kmlCropAlphaColor
 ;  - adding a labelbar as a ScreenOverlay
 ;  - adding a LookAt element
-;  - creating a KMZ file 
+;  - creating a KMZ file
 ;
 ;************************************************
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_code.ncl"
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_csm.ncl"
 load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
+
 
 begin
 
@@ -25,7 +26,7 @@ begin
   nx = 100
   ny = 100
   z  = generate_2d_array(15,15,-10.,110.,0,(/ny,nx/))
-  
+
 ;************************************************
 ; Generate 1D lat/lon coord arrays and attach to data. Make sure
 ; to include the units so we don't get warning messages from the
@@ -58,7 +59,7 @@ begin
 ;************************************************
   res                 = True
 
-  kml_map_defaults(res) 
+  kml_map_defaults(res)
   ; res@mpOutlineOn     = False
   ; res@mpPerimOn       = False
   ; res@mpFillOn        = False
@@ -83,13 +84,13 @@ begin
 ;************************************************
 ; Set some contour resources.
 ;************************************************
-  
+
   res@cnFillOn        = True
   res@cnFillDrawOrder = "Predraw"
   res@cnLineDrawOrder = "Predraw"
   res@cnLinesOn       = False         ; turn off contour lines
   res@gsnSpreadColors = True
- 
+
   res@mpFillOn        = True         ; fill in land areas
   res@mpLandFillColor = "white"      ; set color of filled land areas to white
 
@@ -104,7 +105,7 @@ begin
 ;************************************************
 
   kres = True
-  kml = kml_open_document("example06", "Example 06: GroundOverlay, ScreenOverlay, LookAt",False)  
+  kml = kml_open_document("example06", "Example 06: GroundOverlay, ScreenOverlay, LookAt",False)
 
 ;************************************************
 ;  position resources for ScreenOverlay element
@@ -116,7 +117,7 @@ begin
   kres@kmlOverlayXYxunits = "fraction" ;
   kres@kmlOverlayXYyunits = "fraction" ; pixels, or insetPixels
   kres@kmlScreenXY = True
-  kres@kmlScreenXYx = 0   
+  kres@kmlScreenXYx = 0
   kres@kmlScreenXYy = 0
   kres@kmlScreenXYxunits = "fraction"
   kres@kmlScreenXYyunits = "fraction"
@@ -144,12 +145,12 @@ begin
   kml = kml_add_groundoverlay(kml, "GroundOverlay", icon, LatLonBox, 0, kres)    ; add cropped map to KML document as a GroundOverlay element
   kml_add_kmzfile(kml,icon)                                                      ; add cropped map filename to list of files to be compressed in KMZ archive
   delete(kres@kmlColor)
-  
+
   kres@kmlHeading = -6                                             ; define a heading for the LookAt element
   kml = kml_add_lookat( kml, -11.0, -8.5, 0.0, 10000000, kres)     ; add a LookAt element
 
 ;************************************************
-;  close, write, and archive the KML document 
+;  close, write, and archive the KML document
 ;************************************************
 
   kml = kml_close_document(kml)    ; close the kml document
@@ -157,4 +158,3 @@ begin
   kml_make_kmz(kml)                ; zip kml file and overlay images together in to "example06.kmz"
 
 end
-

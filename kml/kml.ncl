@@ -15,7 +15,7 @@ begin
 
   files = kml@files
   kml@files = files + " " + filename
-  
+
 end
 ; *****************************************************************
 
@@ -53,7 +53,7 @@ begin
 ; e.g. <kml_tags> res@kml$kml_tags$ </kml_tags>
 
   atts=str_right_strip("kml"+str_capital(kml_tags+" "))
-  
+
   do i=0,dimsizes(kml_tags)-1
     if (isatt(res,atts(i)).and.dimsizes(res@$atts(i)$).eq.1) then
       kml_entry = "<"+kml_tags(i)+">"+res@$atts(i)$+"</"+kml_tags(i)+">"
@@ -166,7 +166,7 @@ begin
   kml_file = kml@filename+".kml"
   asciiwrite(kml_file,kml(0:kml@nline))
 
-end 
+end
 ; *****************************************************************
 
 ;************************************************************
@@ -192,7 +192,7 @@ undef("kml_altitudeMode_attr")
 function kml_altitudeMode_attr ( kml:string, res:logical )
 local kml, res, altmode
 begin
-  
+
   altmode = get_res_value_keep(res, "kmlAltitudeMode", "relativeToGround")
   kml_setline(kml,"<altitudeMode>"+altmode+"</altitudeMode>")
 
@@ -235,7 +235,7 @@ begin
   res@kmlHref=icon
   kml_setline_idtag(kml,kml_entry,res)
 
-  
+
   return(kml)
 end
 ; *****************************************************************
@@ -257,7 +257,7 @@ begin
   kml_tags=(/"color","drawOrder"/)
   kml_setline_singletag(kml,kml_tags,res)
   delete(kml_tags)
-  
+
   kml = kml_icon_attr(kml,icon,res)
 
   return(kml)
@@ -451,7 +451,7 @@ begin
   cropbox(5) = wks@name + ".png"
 
   ; postscript page-coordinates
-  ; "convert -crop cropbox(0)xcropbox(1)+cropbox(2)+cropbox(3) cropbox(4) cropbox(5)" 
+  ; "convert -crop cropbox(0)xcropbox(1)+cropbox(2)+cropbox(3) cropbox(4) cropbox(5)"
 
   ; does not work with gsnMaximize=True
 
@@ -658,14 +658,14 @@ local cropbox, icon, convertcmd, res, AlphaColor
 begin
 
   AlphaColor = ""
-  if(isatt(res,"kmlCropAlphaColor")) then 
+  if(isatt(res,"kmlCropAlphaColor")) then
    AlphaColor = " -transparent "+res@kmlCropAlphaColor
   end if
 
-  convertcmd = "convert "+cropbox(4)+" -crop "+cropbox(0)+"x"+cropbox(1)+"+"+cropbox(2)+"+"+cropbox(3)+" "+AlphaColor+" +repage -depth 8 "+cropbox(5)
+  convertcmd = "sed -e '/%%BoundingBox\|%%PageBoundingBox/d' " + cropbox(4) + " | convert +repage -crop "+cropbox(0)+"x"+cropbox(1)+"+"+cropbox(2)+"+"+cropbox(3)+" "+AlphaColor+" -depth 8 - "+cropbox(5)
   print(convertcmd)
   system(convertcmd)
-  
+
   icon = cropbox(5)
   return(icon)
 end
@@ -674,7 +674,7 @@ end
 
 ;************************************************************
 ; based on the NCL example script lb_19.ncl by Mary Haley
-; 
+;
 
 undef("kml_crop_labelbar")
 function kml_crop_labelbar (kml:string, name:string, wks:graphic,plot:graphic, res:logical)
@@ -731,7 +731,7 @@ begin
     print("contour_labelbar: Error: Couldn't extract labelbar associated with this plot")
     return
   end if
-  
+
   getvalues wks
     "wkColorMap"             : cmap
   end getvalues
@@ -777,7 +777,7 @@ begin
   end getvalues
 
 ;
-; Set some labelbar resources. Note: Not every single 
+; Set some labelbar resources. Note: Not every single
 ; labelbar resource is retrieved and set here. If the
 ; labelbar is not being recreated properly, then you
 ; may need to add some more resources to the "getvalues"
@@ -810,11 +810,11 @@ begin
   lbres@lbLabelAlignment     = lbar_aln
   lbres@lbLabelJust          = lbar_ljust
 
-  lbres@lbLabelAutoStride    = True        ; NO LONGER NEEDED IN V6.1.0 
+  lbres@lbLabelAutoStride    = True        ; NO LONGER NEEDED IN V6.1.0
 
 ;---Regenerate the labelbar
   nboxes = dimsizes(lbar_colors)
-    
+
   lbplot_name = wks@name  + "_lb"
   lbplot_file = lbplot_name + ".ps"
   lbicon      = lbplot_name + ".png"
@@ -822,10 +822,10 @@ begin
 
   lbwks = gsn_open_wks("ps",lbplot_name)
   gsn_define_colormap(lbwks,cmap)
-  
-  
+
+
     lbid = gsn_create_labelbar(lbwks,dimsizes(levels)+1,labels,lbres)
-    
+
     lbplot = create "lbplot" mapPlotClass lbwks
     "mpOutlineOn"     : False
     "mpPerimOn"       : False
@@ -834,16 +834,16 @@ begin
     "tmXTBorderOn"    : False
     "tmYRBorderOn"    : False
     "tmYLBorderOn"    : False
-    "tmXBOn"          : False                  
+    "tmXBOn"          : False
     "tmXTOn"          : False
     "tmYROn"          : False
     "tmYLOn"          : False
     end create
-      
+
    annoid = gsn_add_annotation(lbplot,lbid,False)
    draw(lbplot)
    frame(lbwks)
-   
+
    lbcropbox = kml_get_vp_cropbox(lbwks,lbid)
    delete(lbwks)
 
@@ -893,7 +893,7 @@ begin
   kml = kml_feature_attr(kml, name, res)
 
   return(kml)
-end 
+end
 ; *****************************************************************
 
 
@@ -908,7 +908,7 @@ begin
   kml_setline(kml,"</Folder>")
 
   return(kml)
-end 
+end
 
 ; *****************************************************************
 
@@ -941,7 +941,7 @@ begin
   kml_setline(kml,"</NetworkLink>")
 
   return(kml)
-end 
+end
 ; *****************************************************************
 
 ;************************************************************
@@ -1181,7 +1181,7 @@ begin
   kml_setline(kml,"</StyleMap>")
 
   return(kml)
-end 
+end
 ; *****************************************************************
 
 
@@ -1196,7 +1196,7 @@ begin
   kml_setline(kml,"</Style>")
 
   return(kml)
-end 
+end
 ; *****************************************************************
 
 
@@ -1279,7 +1279,7 @@ begin
   kml = kml_altitudeMode_attr(kml,res)
 
   kml_setline(kml,"</LookAt>")
-  
+
   return(kml)
 end ;kml_add_lookat
 ; *****************************************************************
@@ -1310,7 +1310,7 @@ begin
   ; </Camera>
 
   kml_setline_idtag(kml,"Camera",res)
-  
+
   ;
   ; <TimeSpan id="ID">
   ;   <begin>...</begin>     <!-- yyyy-mm-ddThh:mm:sszzzzzz -->
@@ -1421,6 +1421,10 @@ begin
   kml_setline_idtag(kml,"Placemark",res)
 
   kml = kml_feature_attr(kml, name, res)
+
+  kml_setline(kml,"<MultiGeometry>")
+
+
 
   return(kml)
 end ;kml_open_placemark
@@ -1620,7 +1624,7 @@ begin
     kml_setline(kml,kml_entry)
     delete(kml_entry)
   end do
-  
+
   do i = 0, nx-1
     kml_entry = "<gx:coord>" + x(i) + " " + y(i) + " " + z(i) + "</gx:coord>"
     kml_setline(kml,kml_entry)
@@ -1779,7 +1783,7 @@ begin
   kml_setline(kml,"</Polygon>")
 
   return(kml)
-end 
+end
 ; *****************************************************************
 
 
@@ -1791,10 +1795,12 @@ function kml_close_placemark ( kml:string )
 local kml
 begin
 
+  kml_setline(kml,"</MultiGeometry>" )
+
   kml_setline(kml,"</Placemark>" )
 
   return(kml)
-end 
+end
 ; *****************************************************************
 
 
@@ -1842,7 +1848,7 @@ begin
   ; </Model>
 
   kml_setline_idtag(kml,"Model",res)
-  
+
   kml = kml_altitudeMode_attr(kml,res)
 
   kml_entry = (/   \
@@ -1884,9 +1890,9 @@ begin
   delete(kml_entry)
 
   kml = kml_link_attr(kml, link, res)
-  
+
   if (isatt(res,"kmlTargetHref") .and. isatt(res,"kmlSourceHref")) then
-  
+
     ntarget = dimsizes(res@kmlTargetHref)
     nsource = dimsizes(res@kmlSourceHref)
 
@@ -1896,7 +1902,7 @@ begin
     end if
 
     kml_setline(kml,"<ResourceMap>")
-    do i = 0, ntarget-1 
+    do i = 0, ntarget-1
       kml_entry = (/   \
                    "<Alias>", \
                    "  <targetHref>"+res@kmlTargetHref(i)+"</targetHref>", \
@@ -1907,9 +1913,9 @@ begin
        delete(kml_entry)
     end do
     kml_setline(kml,"</ResourceMap>")
-    
+
   end if
-  
+
   kml_setline(kml,"</Model>")
 
   return(kml)
@@ -2036,14 +2042,12 @@ begin
     ; </PhotoOverlay>
 
     kml = kml_add_point(kml, x, y, z, 0)
-    
+
     shape = get_res_value_keep(res,"kmlShape","rectangle")
     kml_setline(kml,"<shape>"+shape+"</shape>")
-    
+
     kml_setline(kml,"</PhotoOverlay>")
 
   return(kml)
 end
-; ***************************************************************** 
-
-
+; *****************************************************************

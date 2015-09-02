@@ -13,8 +13,9 @@
 
  load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_code.ncl"
  load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_csm.ncl"
- load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
- 
+load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
+
+
  ;************************************************
  ; read in netCDF file
  ;************************************************
@@ -40,7 +41,7 @@
 ; http://www.ncl.ucar.edu/Document/Functions/Built-in/get_isolines.shtml
 
    isolines = get_isolines(plot@contour,"plot")
- 
+  res@kmlAltitudeMode = "clampToGround"
   do i = 0, ListCount(isolines) - 1
       iso := isolines[i]
       count = 0
@@ -55,7 +56,7 @@
       end do
       print(iso@level + " has " + count + " total points in " + iso@segment_count + " segments" )
   end do
-  
+
   kml = kml_close_placemark(kml)                              ; close the Placemark element
 
   kml = kml_add_lookat( kml, -67.55, 31.5, 0.0, 19492000.0, False)     ; add a LookAt element
@@ -64,5 +65,3 @@
 
   kml_write(kml)                                              ; write the KML document to file "example08.kml"
   kml_make_kmz(kml)                ; zip kml file in to "example_08.kmz"
-
-

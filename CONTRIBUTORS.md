@@ -14,3 +14,4 @@ derivative works of any Contribution, under the BSD 2-Clause License.
 ## Contributors ##
 - Álvaro M. Valdebenito B., Dr. rer. nat. (<alvaro.valdebenito@met.no>)
 - Aditya R. Kartadikaria (<aditya.rk@gmail.com>)
+- Rick Brownrigg (<brownrig@ucar.edu>)

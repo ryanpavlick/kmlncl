@@ -10,13 +10,14 @@
 ;  - adding a labelbar as a ScreenOverlay
 ;  - adding a LookAt element
 ;  - adding a Folder element
-;  - creating a KMZ file 
+;  - creating a KMZ file
 ;
 ;************************************************
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_code.ncl"
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_csm.ncl"
 load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
-load "$NCARG_ROOT/lib/ncarg/nclscripts/contrib/ut_string.ncl" 
+
+load "$NCARG_ROOT/lib/ncarg/nclscripts/contrib/ut_string.ncl"
 
 begin
 
@@ -35,7 +36,7 @@ begin
  time = in->scrum_time
  ntimes = dimsizes(time)
 
- ; since roms data has 2D lat/lon coordinates, we need to set these two 
+ ; since roms data has 2D lat/lon coordinates, we need to set these two
  ;variables
  x@lat2d=lat2d
  x@lon2d=lon2d
@@ -50,7 +51,7 @@ begin
 ;************************************************
   res                 = True
 
-  kml_map_defaults(res) 
+  kml_map_defaults(res)
   ; res@mpOutlineOn     = False
   ; res@mpPerimOn       = False
   ; res@mpFillOn        = False
@@ -75,7 +76,7 @@ begin
 ;************************************************
 ; Set some contour resources.
 ;************************************************
-  
+
   res@cnFillOn             = True
   res@cnFillDrawOrder      = "Predraw"
   res@cnLineDrawOrder      = "Predraw"
@@ -88,7 +89,7 @@ begin
   res@lbLabelAutoStride    = True
   res@lbBoxLineOn          = False
   res@gsnSpreadColors      = True
- 
+
   res@mpFillOn                = True         ; fill in land areas
   res@mpLandFillColor         = "white"      ; set color of filled land areas to white
  ; res@mpDataBaseVersion      = "HighRes"          ; use high resolution coast
@@ -116,7 +117,7 @@ begin
   kres@kmlOverlayXYxunits = "fraction" ;
   kres@kmlOverlayXYyunits = "fraction" ; pixels, or insetPixels
   kres@kmlScreenXY = True
-  kres@kmlScreenXYx = 0   
+  kres@kmlScreenXYx = 0
   kres@kmlScreenXYy = 0
   kres@kmlScreenXYxunits = "fraction"
   kres@kmlScreenXYyunits = "fraction"
@@ -125,7 +126,7 @@ begin
 ;************************************************
 ; add the label bar as a ScreenOverlay
 ;************************************************
-  kml = kml_open_document("example07", "Example 07: Animated GroundOverlay",False)  
+  kml = kml_open_document("example07", "Example 07: Animated GroundOverlay",False)
 
   lbicon = kml_crop_labelbar(kml, "labelbar", wks,plot, kres)      ; crops the labelbar from the plot and converts it to a png
   kml = kml_add_screenoverlay ( kml, "Label Bar", lbicon, kres)     ; add labelbar to KML document as a ScreenOverlay element
@@ -203,7 +204,7 @@ do i=1,ntimes-1
 end do
 
 ;************************************************
-;  close, write, and archive the KML document 
+;  close, write, and archive the KML document
 ;************************************************
   kml_folder=kml_close_folder(kml) ; close the folder
   kml = kml_close_document(kml)    ; close the kml document
@@ -211,5 +212,3 @@ end do
   kml_make_kmz(kml)                ; zip kml file and overlay images together in to "example_07.kmz"
 
 end
-
-

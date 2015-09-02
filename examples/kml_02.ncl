@@ -6,7 +6,7 @@
 ;
 ; Concepts illustrated:
 ;   - Opening and closing a KML document
-;   - Adding a Polygon elements 
+;   - Adding a Polygon elements
 ;   - Styling Polygon elements with the PolyStyle element
 ;   - Writing a KML document to a file
 ;
@@ -23,7 +23,7 @@ load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
 ; load the netcdf containing US climate divisions
   fname = "$NCARG_ROOT/lib/ncarg/data/cdf/climdiv_polygons.nc"
   ncdf = addfile(fname,"r")
- 
+
 ;************************************************
 ; some parameters
 ;************************************************
@@ -31,19 +31,19 @@ load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
   statenames = (/"AL","AR","AZ","CA","CO","CT","DE","FL","GA","IA","ID","IL", \
                "IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT", \
                "NC","ND","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA", \
-               "RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"/) 
+               "RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"/)
 
-; climate divisions in each state                   
+; climate divisions in each state
   ncds = new((/48/),"integer")
   ncds = (/8,9,7,7,5,3,2,6,9,9,10,9,9,9,4,9,3,8,3,10,9,6,10,7, \
          8,9,8,2,3,8,4,10,10,9,9,10,1,7,9,4,10,7,7,3,10,9,6,10/)
-         
+
   npoly = sum(ncds)   ; number of polygons to draw
 
   kmlfilename = "example02"
 
   kml = kml_open_document(kmlfilename, "US Climate Divisions", False)  ; open a new KML document
-  
+
 ; set some KML resources
   kres = True
   kres@kmlTessellate = 1
@@ -60,7 +60,7 @@ load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
   kres@kmlColor = "ffffffff"
   kres@kmlFill = 1                 ; polygons should be filled
   kres@kmlOutline = 1              ; draw polygon borders
-  
+
   kml = kml_open_style(kml,kres)                           ; open a Style element
   kml = kml_add_polystyle(kml, kres)                       ; add a PolyStyle element
   kml = kml_close_style(kml)                               ; close Style element
@@ -75,12 +75,12 @@ load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
       ; set the altitude coordinates to zero
       z = y
       z = 0.0
-      
+
       kres@kmlStyleUrl = "#polygonstyle"                       ; refer to PolyStyle element added above
       kml = kml_open_placemark(kml, varstr, kres)              ; open a Placemark element
         kml = kml_open_polygon(kml,kres)                       ; open a Polygon element
         kml = kml_add_polygon_outer(kml,x,y,z,kres)            ; add a Polygon outer ring
-        kml = kml_close_polygon(kml)                           ; close the Polygon element 
+        kml = kml_close_polygon(kml)                           ; close the Polygon element
       kml = kml_close_placemark(kml)                           ; close the Placemark element
 
       ; delete some variables before the next iteration of the loop

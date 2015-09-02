@@ -10,14 +10,14 @@
 	;  - adding a labelbar as a ScreenOverlay
 	;  - adding a LookAt element
 	;  - adding a Folder element
-	;  - creating a KMZ file 
+	;  - creating a KMZ file
 	;
 	;************************************************
 	load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_code.ncl"
 	load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_csm.ncl"
 	load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/contributed.ncl"
-	load "../kml/kml.ncl"
-	load "$NCARG_ROOT/lib/ncarg/nclscripts/contrib/ut_string.ncl" 
+  load "$NCARG_ROOT/lib/ncarg/nclscripts/kml/kml.ncl"
+	load "$NCARG_ROOT/lib/ncarg/nclscripts/contrib/ut_string.ncl"
 
 
 	;************************************************
@@ -26,7 +26,7 @@
 
 	inFile = addfile ("examplefiles/Year.2005.ibtracs_wmo.v03r04.nc", "r")
 
-	year = 2005 
+	year = 2005
 	basin = 0 ;; -1=All, 0=North Atlantic, 1=South Atlantic, 2=West Pacific,
 	;; 3=East Pacific, 4=South Pacific, 5=North Indian, 6=South Indian
 
@@ -47,7 +47,7 @@
 	end if
 	stormLat = short2flt( inFile->lat_wmo(stormInd,:) )
 	stormLon = short2flt( inFile->lon_wmo(stormInd,:) )
-	stormTime =  inFile->time_wmo(stormInd,:) 
+	stormTime =  inFile->time_wmo(stormInd,:)
 	stormLon = where( stormLon.lt.0, stormLon+360, stormLon )
     stormNames = inFile->name
 
@@ -63,7 +63,7 @@
 	kmlfilename = "example09"
 
 	kml = kml_open_document(kmlfilename, "Tropical cyclone tracks", False)    ; open a new KML document
-	kml_folder = kml_open_folder(kml, "North Atlantic basin",False)   
+	kml_folder = kml_open_folder(kml, "North Atlantic basin",False)
 
 
 
@@ -86,9 +86,9 @@
     stormName := chartostring(stormNames(i,:))
 	kml = kml_open_placemark(kml, stormName, False)           ; open a Placemark element
 
-	kml = kml_add_gxTrack(kml,x,y,z, times, False)       
+	kml = kml_add_gxTrack(kml,x,y,z, times, False)
 	kml = kml_close_placemark(kml)                              ; close the Placemark element
-	
+
 end do
 
 
@@ -102,4 +102,3 @@ end do
 
 	kml_write(kml)                                              ; write the KML document to file "example08.kml"
 	kml_make_kmz(kml)                ; zip kml file in to "example_08.kmz"
-
